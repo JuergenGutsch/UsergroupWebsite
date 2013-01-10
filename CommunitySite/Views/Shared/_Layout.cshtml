@@ -1,0 +1,50 @@
+@using CommunitySite.Extensions
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="pragma" content="Public" />
+    <meta http-equiv="Content-Type" content="text/html; utf-8" />
+    <meta name="author" content=".NET-Stammtisch Konstanz-Kreuzlingen" />
+    <meta name="description" content=" " />
+    <meta name="Content-Language" content="de" />
+    <meta name="GENERATOR" content="ASP.NET MVC 4.0" />
+    <meta name="ProgId" content="ASP.NET MVC 4." />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="/Content/Site.css" />
+    <link rel="stylesheet" href="/Content/Menu.css" />
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <div><a href="/">
+                <img src="/Content/Images/logo_blog.png" style="border: none;" alt="Logo: See# Party" /></a></div>
+        </div>
+        <div id="menu">
+            <ul class="mainmenu">
+                <li class="@Url.Selected(null, "Home", "Index")">@Html.ActionLink("Start", "Index", "Home")</li>
+                <li>@Html.ActionLink("Termine", "Index", "Events")</li>
+                <li>@Html.ActionLink("Über uns", "About", "Home")</li>
+                <li>@Html.ActionLink("Profil", "Profile", "Account")</li>
+                <li>@Html.ActionLink("Login", "Login", "Account")</li>
+            </ul>
+            <div class="clear">
+            </div>
+        </div>
+        <div id="content">
+            @RenderBody()
+
+            <div class="clear">
+            </div>
+        </div>
+        <div id="footer">
+            @Html.ActionLink("Impressum", "Imprint", "Home") - <a href="http://www.windowsazure.com/" onkeypress="return location.href=this.href;">Powert by Windows Azure</a>
+        </div>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
