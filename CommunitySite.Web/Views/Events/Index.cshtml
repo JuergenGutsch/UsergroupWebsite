@@ -1,0 +1,15 @@
+﻿@model IEnumerable<CommunitySite.Web.Data.Event>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Die nächsten Veranstaltungen</h1>
+<p>Das Archiv finden Sie @Html.ActionLink("hier", "Archive")</p>
+
+@{Html.RenderPartial("EventList", Model);}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>

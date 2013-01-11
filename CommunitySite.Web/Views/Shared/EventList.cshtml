@@ -1,0 +1,6 @@
+﻿@model IEnumerable<CommunitySite.Web.Data.Event>
+
+@foreach (var item in Model)
+{
+    Html.RenderPartial("Event", item);
+}

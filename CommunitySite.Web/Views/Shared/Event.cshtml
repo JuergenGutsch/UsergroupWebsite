@@ -1,0 +1,15 @@
+﻿@model CommunitySite.Web.Data.Event
+
+<article>
+    <hgroup>
+        <h2>@Html.DisplayFor(modelItem => Model.Title)</h2>
+        <h3>@Html.DisplayFor(modelItem => Model.FromDate) - @Html.DisplayFor(modelItem => Model.ToDate)</h3>
+    </hgroup>
+    <p>
+        @Html.DisplayFor(modelItem => Model.Teaser)
+    </p>
+    <footer>
+        <p>@Html.ActionLink("Details", "Detail", "Events", new { id = Model.RowKey })</p>
+        <p>&nbsp;</p>
+    </footer>
+</article>

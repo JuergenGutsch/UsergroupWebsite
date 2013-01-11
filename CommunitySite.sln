@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunitySite", "CommunitySite\CommunitySite.csproj", "{D6A3057E-8A99-4379-8FF3-2DC9B4AD2B83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunitySite.WorkerRole", "CommunitySite.WorkerRole\CommunitySite.WorkerRole.csproj", "{814CD549-BC04-4C1F-9D98-800A82C08D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunitySite.Tests", "CommunitySite.Tests\CommunitySite.Tests.csproj", "{22B6D1B7-9871-4BDB-B166-7FF654EA79D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunitySite.Web", "CommunitySite.Web\CommunitySite.Web.csproj", "{D6A3057E-8A99-4379-8FF3-2DC9B4AD2B83}"
 EndProject
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CommunitySite.WebRole", "CommunitySite.WebRole\CommunitySite.WebRole.ccproj", "{A9D82491-749E-4B9F-8EF8-EFCC77890E61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunitySite.Web.Tests", "CommunitySite.Web.Tests\CommunitySite.Web.Tests.csproj", "{22B6D1B7-9871-4BDB-B166-7FF654EA79D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunitySite.WorkerRole", "WorkerRole1\CommunitySite.WorkerRole.csproj", "{814CD549-BC04-4C1F-9D98-800A82C08D21}"
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CommunitySite", "CommunitySite\CommunitySite.ccproj", "{A9D82491-749E-4B9F-8EF8-EFCC77890E61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{814CD549-BC04-4C1F-9D98-800A82C08D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814CD549-BC04-4C1F-9D98-800A82C08D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814CD549-BC04-4C1F-9D98-800A82C08D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814CD549-BC04-4C1F-9D98-800A82C08D21}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6A3057E-8A99-4379-8FF3-2DC9B4AD2B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6A3057E-8A99-4379-8FF3-2DC9B4AD2B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6A3057E-8A99-4379-8FF3-2DC9B4AD2B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,10 +31,6 @@ Global
 		{A9D82491-749E-4B9F-8EF8-EFCC77890E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9D82491-749E-4B9F-8EF8-EFCC77890E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9D82491-749E-4B9F-8EF8-EFCC77890E61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{814CD549-BC04-4C1F-9D98-800A82C08D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{814CD549-BC04-4C1F-9D98-800A82C08D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{814CD549-BC04-4C1F-9D98-800A82C08D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{814CD549-BC04-4C1F-9D98-800A82C08D21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
