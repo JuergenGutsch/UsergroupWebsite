@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Location>
+    <Id>f2cd449e-ba1f-4274-b6a8-ec9c72ba6ce6</Id>
+    <Name>Weinstube Pfohl</Name>
+    <Address>Salmannsweilergasse 11; 78462 Konstanz</Address>
+    <Capacity>30</Capacity>
+  </Location>
+  <Location>
+    <Id>ea35ab3f-92e5-4c1c-8013-f2df888876bc</Id>
+    <Name>Kultur- und Sportzentrum DREISPITZ</Name>
+    <Address>Pestalozzistrasse 17; Postfach 1228; 8280 Kreuzlingen</Address>
+    <Capacity>200</Capacity>
+  </Location>
+  <Location>
+    <Id>200c68d6-857e-4cd1-b2fd-f5e79fe08e44</Id>
+    <Name>Fachhochschule Nürnberg</Name>
+    <Address>Bahnhofstraße 87; 90402 Nürnberg</Address>
+    <Capacity>0</Capacity>
+  </Location>
+  <Location>
+    <Id>87a9cc02-741a-4ca9-b141-b41b0d740ae7</Id>
+    <Name>Hotel Restaurant Bahnhof Post</Name>
+    <Address>Nationalstrasse 2; 8280 Kreuzlingen</Address>
+    <Capacity>20</Capacity>
+  </Location>
+  <Location>
+    <Id>d9c7229b-59fa-47a1-815a-7f481e2672b3</Id>
+    <Name>Restaurant Quellenhof</Name>
+    <Address>Alleeweg 12; 8280 Kreuzlingen</Address>
+    <Capacity>20</Capacity>
+  </Location>
+  <Location>
+    <Id>a41b5ab9-0fe3-4946-ae74-2932bf4f818c</Id>
+    <Name>Restaurant Seerhein</Name>
+    <Address>Spanierstraße 3; 78467 Konstanz</Address>
+    <Capacity>20</Capacity>
+  </Location>
+</root>

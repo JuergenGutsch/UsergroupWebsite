@@ -13,8 +13,7 @@
     <meta name="ProgId" content="ASP.NET MVC 4." />
     <meta name="viewport" content="width=device-width" />
 
-    <link rel="stylesheet" href="/Content/Site.css" />
-    <link rel="stylesheet" href="/Content/Menu.css" />
+    @Styles.Render("~/css/site")
 
     <title>@ViewBag.Title</title>
 </head>
@@ -22,7 +21,7 @@
     <div id="page">
         <div id="header">
             <div><a href="/">
-                <img src="/Content/Images/logo_blog.png" style="border: none;" alt="Logo: See# Party" /></a></div>
+                     <img src="/Content/Images/logo_blog.png" style="border: none;" alt="Logo: See# Party" /></a></div>
         </div>
         <div id="menu">
             <ul class="mainmenu">
@@ -45,6 +44,7 @@
             @Html.ActionLink("Impressum", "Imprint", "Home") - <a href="http://www.windowsazure.com/" onkeypress="return location.href=this.href;">Powert by Windows Azure</a>
         </div>
     </div>
+    @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
 </body>
 </html>

@@ -45,14 +45,6 @@
       <RoleName>CommunitySite.Web</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
-    <ProjectReference Include="..\CommunitySite.WorkerRole\CommunitySite.WorkerRole.csproj">
-      <Name>CommunitySite.WorkerRole</Name>
-      <Project>{814cd549-bc04-4c1f-9d98-800a82c08d21}</Project>
-      <Private>True</Private>
-      <RoleType>Worker</RoleType>
-      <RoleName>CommunitySite.WorkerRole</RoleName>
-      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
-    </ProjectReference>
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

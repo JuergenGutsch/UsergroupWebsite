@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="cherryflavored.net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f02d69713f90b29e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XmlRepository\cherryflavored.net.dll</HintPath>
+    </Reference>
+    <Reference Include="cherryflavored.net.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f02d69713f90b29e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XmlRepository\cherryflavored.net.Contracts.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Moq">
       <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
@@ -100,9 +108,20 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="XmlRepository, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XmlRepository\XmlRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="XmlRepository.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XmlRepository\XmlRepository.Contracts.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseSetup.cs" />
+    <Compile Include="EventRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpeakerRepositoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />

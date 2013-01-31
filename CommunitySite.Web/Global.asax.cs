@@ -15,6 +15,7 @@ namespace CommunitySite.Web
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+            RepositoryConfig.RegisterProvider();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

@@ -1,4 +1,5 @@
 ﻿using CommunitySite.Web.Data;
+using CommunitySite.Web.Data.Models;
 
 namespace CommunitySite.Web.Models
 {

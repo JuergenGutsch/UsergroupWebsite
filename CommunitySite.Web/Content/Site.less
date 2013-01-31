@@ -1,0 +1,190 @@
+﻿
+@border_color: #808080;
+@active_color: #FF4E00;
+@accent_color: #0090FF;
+
+
+html, body, div, p, form, h1, h2, h3, h4
+{
+    margin: 0;
+    padding: 0;
+}
+
+    html *
+    {
+        font-size: 100.01%;
+    }
+
+body
+{
+    font-family: verdana, arial, sans-serif;
+    font-size: 75.00%;
+    color: @border_color;
+}
+
+#page
+{
+    width: 75em;
+    margin: 1em auto 1em auto;
+}
+
+#header
+{
+    margin: 0 1.3em;
+}
+
+
+#menu
+{
+    margin-top: 1em;
+    padding-top: 0.5em;
+    border-top: solid 1px @border_color;
+    border-bottom: solid 1px @border_color;
+}
+
+ul.submenu
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.0;
+
+    & ul
+    {
+        margin-left: 0.5em;
+        list-style: none;
+    }
+
+    & li
+    {
+        &.current > a
+        {
+            color: @active_color;
+        }
+
+        &:hover
+        {
+            visibility: inherit; /* fixes IE7 'sticky bug' */
+            & > a
+            {
+                color: @active_color;
+            }
+        }
+    }
+
+    & a
+    {
+        display: block;
+        position: relative;
+        color: @accent_color;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+
+        & > span
+        {
+            display: block;
+            margin: 0.8em;
+        }
+    }
+}
+
+#content
+{
+    margin: 1em 1.3em;
+
+
+    & li
+    {
+        color: #000000 !important;
+        margin-left: -1em;
+    }
+}
+
+#content_left
+{
+    width: 20em;
+    float: left;
+}
+
+#content_right
+{
+    width: 52em;
+    float: right;
+    margin-top: 1em;
+}
+
+#footer
+{
+    color: @border_color;
+    border-top: solid 1px @border_color;
+    padding: 1em 1.8em;
+
+    & a
+    {
+        color: @border_color;
+        text-decoration: none;
+    }
+}
+
+.clear
+{
+    clear: both;
+}
+
+h1, h2, h3, h4, p, p div
+{
+    color: #000;
+}
+
+h1, h2, h3, h4, p
+{
+    margin-bottom: 1em;
+}
+
+h1, .header1
+{
+    font-size: 1.4em;
+    color: @accent_color;
+}
+
+h2, .header2
+{
+    font-size: 1.2em;
+    color: @active_color;
+}
+
+h3, .header3
+{
+    font-size: 1em;
+    color: #000000;
+}
+
+p
+{
+    margin-bottom: 1em;
+    color: #000000 !important;
+}
+
+.default
+{
+    color: #000000 !important;
+}
+
+
+.defaultred
+{
+    color: @active_color;
+}
+
+.defaultblue
+{
+    color: @accent_color;
+}
+
+
+
+img
+{
+    border: none 0;
+}

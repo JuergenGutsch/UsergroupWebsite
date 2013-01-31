@@ -12,8 +12,10 @@ namespace CommunitySite.Web.Controllers
         // GET: /Home/
         public ActionResult Index()
         {
-            var repo = new EventRepository();
-            var eventModel = repo.GetNextEvent();
+            var uow = new UnitOfWork();
+            var eventModel = uow.Events.GetAll()
+                .OrderBy(x => x.FromDate)
+                .FirstOrDefault(x => x.ToDate >= DateTime.Now);
 
             var model = new HomeModel
                 {

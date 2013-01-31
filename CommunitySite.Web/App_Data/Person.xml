@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Person>
+    <Id>86fbd8aa-da61-4cc4-8a30-6db6f1eec8ad</Id>
+    <FirstName>.NET-Stammtisch</FirstName>
+    <Lastname>Konstanz-Kreuzlingen</Lastname>
+    <Email>juergen@gutsch-online.de</Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>false</UseGravatar>
+  </Person>
+  <Person>
+    <Id>90a9c8cf-a2dc-42c3-ae4e-d5e6834a7c4d</Id>
+    <FirstName>Jürgen</FirstName>
+    <Lastname>Gutsch</Lastname>
+    <Email>juergen@gutsch-online.de</Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>66544164-95cd-4bf3-ba6c-97b256cf9622</Id>
+    <FirstName>Thorsten</FirstName>
+    <Lastname>Hans</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>false</UseGravatar>
+  </Person>
+  <Person>
+    <Id>ce41025f-86b7-4613-89f2-8b053bddec4d</Id>
+    <FirstName>Golo</FirstName>
+    <Lastname>Roden</Lastname>
+    <Email>webmaster@goloroden.de</Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>454d6eb0-2f37-4335-894f-c6a9577fc6b3</Id>
+    <FirstName>Roberto</FirstName>
+    <Lastname>Danti</Lastname>
+    <Email>rdanti@outlook.com</Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>893ecc68-6db6-4a96-bc52-d55d32b6f77a</Id>
+    <FirstName>Gregor</FirstName>
+    <Lastname>Biswanger</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>da607379-fff2-4110-9d62-25d163650e19</Id>
+    <FirstName>Daniel</FirstName>
+    <Lastname>Marbach</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>64b13178-d733-46d1-8a8a-3f180e867e8e</Id>
+    <FirstName>Urs</FirstName>
+    <Lastname>Enzler</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>ebcaa7b3-1120-44bb-89eb-04d084b89d4d</Id>
+    <FirstName>Ralf</FirstName>
+    <Lastname>Westphal</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>d3fa370d-9da0-4feb-8623-f5761108223f</Id>
+    <FirstName>Ilker</FirstName>
+    <Lastname>Cetinkaya</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>892de75d-15bb-4a2f-9cc8-cff755834797</Id>
+    <FirstName>Thomas</FirstName>
+    <Lastname>Schissler</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>86a46bd0-ad17-484a-bd2d-904010ee6c38</Id>
+    <FirstName>Thomas Claudius</FirstName>
+    <Lastname>Huber</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>0bb62019-4c63-4af8-aae0-73714b552862</Id>
+    <FirstName>David</FirstName>
+    <Lastname>Tielke</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>ebf8de84-d852-495a-80f7-2d1ef983fcde</Id>
+    <FirstName>Peter</FirstName>
+    <Lastname>Bucher</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>06292994-5af8-4adf-8e5f-bf86a75cca9e</Id>
+    <FirstName>Constantin</FirstName>
+    <Lastname>Klein</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+  <Person>
+    <Id>0c0837b8-009b-4d0e-af34-3ddc737fadb9</Id>
+    <FirstName>André</FirstName>
+    <Lastname>Lämmer</Lastname>
+    <Email></Email>
+    <Password />
+    <ImageUrl></ImageUrl>
+    <UseGravatar>true</UseGravatar>
+  </Person>
+</root>

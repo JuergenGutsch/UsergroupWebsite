@@ -1,62 +1,55 @@
+﻿/*** ESSENTIAL STYLES ***/
+.mainmenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.0;
+  float: left;
+  margin-bottom: 0.5em;
+}
+.mainmenu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu a {
+  display: block;
+  position: relative;
+  color: #0090ff;
+  padding: .25em 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.mainmenu li {
+  float: left;
+  position: relative;
+  /*** DEMO SKIN ***/
 
-/*** ESSENTIAL STYLES ***/
-.mainmenu, .mainmenu *
-{
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
-.mainmenu
-{
-    line-height: 1.0;
-    float: left;
-    margin-bottom: 0.5em;
-}
+.mainmenu li:hover {
+  visibility: inherit;
+  /* fixes IE7 'sticky bug' */
 
-.mainmenu li
-{
-    float: left;
-    position: relative;
 }
-
-.mainmenu li:hover
-{
-    visibility: inherit; /* fixes IE7 'sticky bug' */
+.mainmenu li.selected > a {
+  color: #ff4e00;
 }
-
-.mainmenu a
-{
-    display: block;
-    position: relative;
-    color: #0090FF;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: .25em 1em;
-    text-decoration: none;
+.mainmenu li:hover > a {
+  color: #ff4e00;
 }
-.mainmenu li.selected > a
-{
-    color: #FF4E00;
+.mainmenu li li,
+.mainmenu li li:hover {
+  border: none;
 }
-
-.mainmenu li:hover > a
-{
-    color: #FF4E00;
+.mainmenu li li a,
+.mainmenu li li:hover a {
+  padding: .25em 1em;
 }
-
-
-/*** DEMO SKIN ***/
-.mainmenu li li, .mainmenu li li:hover
-{
-    border: none;
+.mainmenu li:hover,
+.mainmenu li.sfHover,
+.mainmenu li a:focus,
+.mainmenu li a:hover,
+.mainmenu li a:active {
+  outline: 0;
 }
-.mainmenu li li a
-{
-    padding: .25em 1em;
-}
-.mainmenu li:hover, .mainmenu li.sfHover, .mainmenu a:focus, .mainmenu a:hover, .mainmenu a:active
-{
-    outline: 0;
-}
-
-

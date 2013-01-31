@@ -1,179 +1,140 @@
-﻿html, body, div, p, form, h1, h2, h3, h4
-{
-    margin: 0;
-    padding: 0;
+﻿html,
+body,
+div,
+p,
+form,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
 }
-
-    html *
-    {
-        font-size: 100.01%;
-    }
-
-body
-{
-    font-family: verdana, arial, sans-serif;
-    color: #808080;
-    font-size: 75.00%;
+html * {
+  font-size: 100.01%;
 }
-
-#page
-{
-    width: 75em;
-    margin: 1em auto 1em auto;
+body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 75.00%;
+  color: #808080;
 }
-
-#header
-{
-    margin: 0 1.3em;
+#page {
+  width: 75em;
+  margin: 1em auto 1em auto;
 }
-
-#menu
-{
-    margin-top: 1em;
-    padding-top: 0.5em;
-    border-top: solid 1px #808080;
-    border-bottom: solid 1px #808080;
+#header {
+  margin: 0 1.3em;
 }
-
-ul.submenu
-{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    line-height: 1.0;
+#menu {
+  margin-top: 1em;
+  padding-top: 0.5em;
+  border-top: solid 1px #808080;
+  border-bottom: solid 1px #808080;
 }
-
-    ul.submenu ul
-    {
-        margin-left: 0.5em;
-        list-style: none;
-    }
-
-    ul.submenu li:hover
-    {
-        visibility: inherit; /* fixes IE7 'sticky bug' */
-    }
-
-    ul.submenu a
-    {
-        display: block;
-        position: relative;
-        color: #0090FF;
-        font-size: 1.2em;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-    ul.submenu li.current > a
-    {
-        color: #FF4E00;
-    }
-
-    ul.submenu li:hover > a
-    {
-        color: #FF4E00;
-    }
-
-    ul.submenu a > span
-    {
-        display: block;
-        margin: 0.8em;
-    }
-
-#content
-{
-    margin: 1em 1.3em;
+ul.submenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.0;
 }
-
-#content_left
-{
-    width: 20em;
-    float: left;
+ul.submenu ul {
+  margin-left: 0.5em;
+  list-style: none;
 }
-
-#content_right
-{
-    width: 52em;
-    float: right;
-    margin-top: 1em;
+ul.submenu li.current > a {
+  color: #ff4e00;
 }
+ul.submenu li:hover {
+  visibility: inherit;
+  /* fixes IE7 'sticky bug' */
 
-#footer
-{
-    color: #808080;
-    border-top: solid 1px #808080;
-    padding: 1em 1.8em;
 }
-
-    #footer a
-    {
-        color: #808080;
-        text-decoration: none;
-    }
-
-.clear
-{
-    clear: both;
+ul.submenu li:hover > a {
+  color: #ff4e00;
 }
-
-h1, h2, h3, h4, p, p div
-{
-    color: #000;
+ul.submenu a {
+  display: block;
+  position: relative;
+  color: #0090ff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
 }
-
-h1, h2, h3, h4, p
-{
-    margin-bottom: 1em;
+ul.submenu a > span {
+  display: block;
+  margin: 0.8em;
 }
-
-h1, .header1
-{
-    font-size: 1.4em;
-    color: #0090FF;
+#content {
+  margin: 1em 1.3em;
 }
-
-h2, .header2
-{
-    font-size: 1.2em;
-    color: #FF4E00;
+#content li {
+  color: #000000 !important;
+  margin-left: -1em;
 }
-
-h3, .header3
-{
-    font-size: 1em;
-    color: #000000;
+#content_left {
+  width: 20em;
+  float: left;
 }
-
-p
-{
-    margin-bottom: 1em;
-    color: #000000 !important;
+#content_right {
+  width: 52em;
+  float: right;
+  margin-top: 1em;
 }
-
-.default
-{
-    color: #000000 !important;
+#footer {
+  color: #808080;
+  border-top: solid 1px #808080;
+  padding: 1em 1.8em;
 }
-
-.defaultred
-{
-    color: #FF4E00;
+#footer a {
+  color: #808080;
+  text-decoration: none;
 }
-
-.defaultblue
-{
-    color: #0090FF;
+.clear {
+  clear: both;
 }
-
-#content li, #content li default
-{
-    color: #000000 !important;
-    margin-left: -1em;
+h1,
+h2,
+h3,
+h4,
+p,
+p div {
+  color: #000;
 }
-
-
-
-img
-{
-    border: none 0;
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-bottom: 1em;
+}
+h1,
+.header1 {
+  font-size: 1.4em;
+  color: #0090ff;
+}
+h2,
+.header2 {
+  font-size: 1.2em;
+  color: #ff4e00;
+}
+h3,
+.header3 {
+  font-size: 1em;
+  color: #000000;
+}
+p {
+  margin-bottom: 1em;
+  color: #000000 !important;
+}
+.default {
+  color: #000000 !important;
+}
+.defaultred {
+  color: #ff4e00;
+}
+.defaultblue {
+  color: #0090ff;
+}
+img {
+  border: none 0;
 }

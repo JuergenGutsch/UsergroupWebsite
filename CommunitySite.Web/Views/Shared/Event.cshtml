@@ -1,4 +1,4 @@
-﻿@model CommunitySite.Web.Data.Event
+﻿@model CommunitySite.Web.Data.Models.Event
 
 <article>
     <hgroup>
@@ -9,7 +9,7 @@
         @Html.DisplayFor(modelItem => Model.Teaser)
     </p>
     <footer>
-        <p>@Html.ActionLink("Details", "Detail", "Events", new { id = Model.RowKey })</p>
+        <p>@Html.ActionLink("Details", "Detail", "Events", new { id = Model.Id }, new {})</p>
         <p>&nbsp;</p>
     </footer>
 </article>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Speaker>
+    <Id>cc35a5c2-9a0a-438a-94ea-e1e3386f18d4</Id>
+    <Description></Description>
+    <PersonId>86fbd8aa-da61-4cc4-8a30-6db6f1eec8ad</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>68fc4775-08ff-4a08-93d3-3920bce58dba</Id>
+    <Description></Description>
+    <PersonId>0c0837b8-009b-4d0e-af34-3ddc737fadb9</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>57e793e0-a14f-4dc1-aee5-a5e809497313</Id>
+    <Description></Description>
+    <PersonId>ebf8de84-d852-495a-80f7-2d1ef983fcde</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>ff57e855-2613-42bc-8da4-dbd9cd2701a2</Id>
+    <Description>&lt;strong&gt;David Tielke&lt;/strong&gt; ist Softwareentwickler bei der Firma uniserve GmbH und entwickelt dort Videomanagementlösungen im Logistikbereich auf Basis von .NET und dem SQL Server. Seit 2008 ist er außerdem ein Microsoft Student Partner und vermittelt in Workshops sein Wissen über Microsoftprodukte an Studierende der Hochschulen in ganz Deutschland oder bei Veranstaltungen wie zum Beispiel den dotnetpro powerdays. Darüber hinaus ist er Microsoft Certified Professional (MCP) für die Entwicklung mit dem .NET-Framework und hat sich während seines Studiums an der Philipps-Universität in Marburg im Bereich Softwaretechnik und Computer Vision spezialisiert.</Description>
+    <PersonId>0bb62019-4c63-4af8-aae0-73714b552862</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>f28e5c29-3dd9-40ed-bdd5-5371701dcce0</Id>
+    <Description>&lt;strong&gt;Thomas Claudius Huber&lt;/strong&gt; ist Senior Consultant bei der Trivadis AG in Basel. Als Trainer, Berater und Entwickler ist er in den Bereichen .NET, Java und PL/SQL tätig. Da ihn Benutzeroberflächen schon seit seinem Informatik-Studium begeisterten, spezialisierte er sich in den vergangenen Jahren auf die UI-Programmierung mit WPF und Silverlight. Er ist Autor des umfassenden Handbuchs zur Windows Presentation Foundation und des umfassenden Handbuchs zu Silverlight. Seine persönliche Seite finden Sie unter http://www.thomasclaudiushuber.com</Description>
+    <PersonId>86a46bd0-ad17-484a-bd2d-904010ee6c38</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>02688d1b-c872-4563-8f7a-1b6766659645</Id>
+    <Description>&lt;strong&gt;Thomas Schissler&lt;/strong&gt; arbeitet als Projektleiter, Software-Architekt und Coach bei der artiso AG nahe Ulm und beschäftigt sich seit 2001 mit der Software-Entwicklung auf Basis von .NET. Er ist MVP für Team System und Group-Leiter der .net Dveloper-Group Ulm (www.dotnet-ulm.de) und der internationalen Visual Studio ALM User Group (www.vsalmug.com). Er hat sich auf die Themen Team Foundation Server, Moderne Architekturkonzepte, Prozessdesign und Qualitätsmanagement spezialisiert. In diversen Vorträgen gibt er praxisorientierte Tipps an Entscheider und Entwickler weiter. Er bloggt so oft wie möglich unter www.artiso.com/problog.</Description>
+    <PersonId>892de75d-15bb-4a2f-9cc8-cff755834797</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>a897cbcd-a968-4932-b601-79fc0aac459e</Id>
+    <Description>&lt;strong&gt;Ilker Cetinkaya&lt;/strong&gt;, Berater, Architekt und Entwickler bei Avanade Deutschland GmbH, entwickelt Software mit dem Microsoft .NET Framework seit der Version 1.0. Durch sein langjähriges Wirken bei großen Projekten prägt ihn ein breites &amp; tiefes Know-How, besonders in den Themen Skalierung, Performance und Flexibilität von .NET Anwendungen; sowohl im Web- als auch im Enterprise-Umfeld. Als ausgewiesener Experte für professionelle Software-Entwicklung beschäftigt er sich seit mehreren Jahren intensiv mit den Themen agile Methoden, TDD / BDD, C# 3.0 / 4.0 und Software-Design.</Description>
+    <PersonId>d3fa370d-9da0-4feb-8623-f5761108223f</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>cb1efd65-8525-4ecd-ac35-51f0d7454ceb</Id>
+    <Description>&lt;strong&gt;Ralf Westphal&lt;/strong&gt; (www.ralfw.de) ist freiberuflicher Berater, Projektbegleiter und Trainer für Themen rund um .NET Softwarearchitektur. Er ist Autor von mehr als 450 Publikationen und Microsoft Most Valued Professional. Mit Stefan Lieser hat er die Initiative „Clean Code Developer“ für mehr Softwarequalität ins Leben gerufen (www.clean-code-developer.de).</Description>
+    <PersonId>ebcaa7b3-1120-44bb-89eb-04d084b89d4d</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>5b23f2eb-123b-42dc-b01a-a2843c36bd92</Id>
+    <Description>&lt;strong&gt;Urs Enzler&lt;/strong&gt; hat an der ETH Zürich Informatik studiert. Neben seiner Haupttätigkeit als Softwarearchitekt bei bbv Software Services AG (www.bbv.ch) unterstützt er Unternehmen bei der Einführung agiler Entwicklungsmethoden wie Scrum oder Test-driven Development. Er referiert auf Konferenzen und Tagungen in der Schweiz und in Deutschland über agile Softwareentwicklung und -architektur. Er bloggt auf http://www.planetgeek.ch.</Description>
+    <PersonId>64b13178-d733-46d1-8a8a-3f180e867e8e</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>58445a6f-20a7-4b3f-bcdf-5b952b3f9d5d</Id>
+    <Description>&lt;strong&gt;Daniel Marbach&lt;/strong&gt; ist ein enthusiastischer Senior Software Engineer bei bbv Software Services AG in Luzern. Seine Erfahrung reicht über Mobile Applikationsentwicklung bis zu Client und Server Entwicklung mit einer starken Tendenz zu Verteilten Systemen. Daniel hat ein Abschluss als Dipl. Inf. Ing. FH von der Fachhochschule für Technik und Architektur in Horw. 
+
+Daniel hat Stärken in Agilen Entwicklungsmethodiken wie Continuous Integration und Test Driven Development. Er ist ein regelmässiger Sprecher, Coach und passionierter Blogschreiber auf http://www.planetgeek.ch. Er ist der Co-Gründer der .NET Usergroup Zentralschweiz und auf einer immerwährenden Reise als Software Entwickler mit Überzeugung und Engagement.</Description>
+    <PersonId>da607379-fff2-4110-9d62-25d163650e19</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>0202ab4e-6916-4f12-af76-346cb0f6de4f</Id>
+    <Description>&lt;strong&gt;Jürgen Gutsch&lt;/strong&gt; ist Geschäftsführer, Softwareentwickler, Trainer und Berater bei der GUTSCH-ONLINE Software GmbH. Neben Familie und Beruf ist Jürgen Leiter des &lt;strong&gt;.NET-Stammtisch Konstanz-Kreuzlingen&lt;/strong&gt; und betreibt ein Blog auf ASP.NET Zone zum Thema &lt;strong&gt;ASP.NET und mehr...&lt;/strong&gt; Sie erreichen ihn über seinen Blog oder über juergen.gutsch@dotnetkk.de.</Description>
+    <PersonId>90a9c8cf-a2dc-42c3-ae4e-d5e6834a7c4d</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>cf6117ed-98be-40d1-b86c-148a60f6870f</Id>
+    <Description>&lt;strong&gt;Thorsten Hans&lt;/strong&gt; arbeitet als Teamlead .NET Development bei der Firma Data One in Saarbrücken. Er ist mehrfach als MCTS und MCPD zertifiziert und beschäftigt sich neben SharePoint und .NET Enterprise Entwicklung mit IronRuby, MSBuild und WF4. 
+Sie erreichen Ihn über einen seiner Blogs http://www.ironruby-rocks.com, http://www.dotnet-rocks.de oder via Email unter thorsten.hans@gmail.com.</Description>
+    <PersonId>66544164-95cd-4bf3-ba6c-97b256cf9622</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>27198742-deef-4d27-a097-38a0eb773050</Id>
+    <Description>&lt;strong&gt;Golo Roden&lt;/strong&gt; ist freiberuflicher Wissensvermittler und Technologieberater für .NET, Codequalität und agile Methoden. Zu diesen Themen berät er Firmen bei der Evaluierung, Erforschung und Verwendung geeigneter Technologien und Methoden. Darüber hinaus ist er journalistisch für Fachzeitschriften und als Referent und Content Manager für Konferenzen tätig. Für sein qualitativ hochwertiges Engagement in der Community wurde Golo von Microsoft als Most Valuable Professional (MVP) für C# ausgezeichnet.</Description>
+    <PersonId>ce41025f-86b7-4613-89f2-8b053bddec4d</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>786a2118-2735-44b6-b489-efee79b33568</Id>
+    <Description>&lt;strong&gt;Roberto Danti&lt;/strong&gt; ist begeisterter .NET-Entwickler und Senjor Software Developer bei der GUTSCH-ONLINE Software GmbH in Engen.</Description>
+    <PersonId>454d6eb0-2f37-4335-894f-c6a9577fc6b3</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>802443d6-4a20-44f9-8a4d-d058d4afa15d</Id>
+    <Description>&lt;strong&gt;Gregor Biswanger&lt;/strong&gt; ist Microsoft MVP für Client App Dev und Arbeitet als Solution Architect und Silverlight Experte bei der Firma impuls Informationsmanagement GmbH aus Nürnberg. Seine Schwerpunkte liegen im Bereich der .NET-Architektur, XAML und agilen Prozessen. 
+
+Gregor ist auch freier Autor, Speaker und Microsoft CLIPler der INdotNET (Ingolstädter .NET Developers Group).</Description>
+    <PersonId>893ecc68-6db6-4a96-bc52-d55d32b6f77a</PersonId>
+  </Speaker>
+  <Speaker>
+    <Id>28204780-bac4-4eaa-beae-980678e116b2</Id>
+    <Description>Constantin arbeitet als Anwendungsarchitekt und Entwickler bei der Freudenberg Forschungsdienste KG. Dort beschäftigt er sich hauptsächlich mit dem Design und der Entwicklung von Web-Informationssystemen und Datenbanken. Seit seinem Studium der Wirtschaftsinformatik gilt sein besonderes Interesse darüber hinaus allen aktuellen Themen im Microsoft .NET Umfeld, insbesondere aber dem Thema Softwarearchitektur. 
+
+Er ist MCSD, MCITP Database Developer und MCPD Web + Enterprise Application Developer. 2010 und 2011 wurde er von Microsoft zum Most Valuable Professional (MVP) für SQL Server ernannt. 
+
+Er engagiert sich zusätzlich im Vorstand des Just Community e.V. (&lt;a href="http://www.justcommunity.de"&gt;http://www.justcommunity.de&lt;/a&gt;) und als Leiter der .NET User Group Frankfurt (&lt;a href="http://www.dotnet-ug-frankfurt.de"&gt;http://www.dotnet-ug-frankfurt.de&lt;/a&gt;). Sein Blog finden Sie unter: &lt;a href="http://kostjaklein.wordpress.com"&gt;http://kostjaklein.wordpress.com&lt;/a&gt;</Description>
+    <PersonId>06292994-5af8-4adf-8e5f-bf86a75cca9e</PersonId>
+  </Speaker>
+</root>
