@@ -16,6 +16,7 @@ namespace CommunitySite.Web
         {
             AreaRegistration.RegisterAllAreas();
             RepositoryConfig.RegisterProvider();
+            IocConfig.RegisterDependenciew();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

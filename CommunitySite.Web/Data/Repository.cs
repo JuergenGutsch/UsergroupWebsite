@@ -4,7 +4,7 @@ using XmlRepo = XmlRepository.XmlRepository;
 
 namespace CommunitySite.Web.Data
 {
-    public class RepositoryBase<TEntity> : IRepository<TEntity> where TEntity : class, IEntity, new()
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class, IEntity, new()
     {
         public IEnumerable<TEntity> GetAll()
         {

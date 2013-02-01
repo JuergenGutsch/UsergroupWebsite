@@ -41,6 +41,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\XmlRepository\cherryflavored.net.Contracts.dll</HintPath>
     </Reference>
+    <Reference Include="HttpSimulator">
+      <HintPath>..\packages\HttpSimulator.1.0.0.0\lib\Net40\HttpSimulator.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Moq">
       <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
@@ -118,6 +121,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Wenn_UnitOfWork_is_resolved.cs" />
     <Compile Include="DatabaseSetup.cs" />
     <Compile Include="EventRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
