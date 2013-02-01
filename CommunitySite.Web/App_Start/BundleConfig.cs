@@ -32,7 +32,6 @@ namespace CommunitySite.Web.App_Start
             css.Transforms.Add(new CssTransformer());
             css.Transforms.Add(new CssMinify());
             css.Orderer = new NullOrderer();
-
             bundles.Add(css);
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(

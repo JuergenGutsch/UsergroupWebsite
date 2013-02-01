@@ -21,35 +21,53 @@
   font-weight: bold;
   text-decoration: none;
 }
+.mainmenu a:focus,
+.mainmenu a:hover,
+.mainmenu a:active {
+  outline: 0;
+}
 .mainmenu li {
   float: left;
   position: relative;
-  /*** DEMO SKIN ***/
-
 }
 .mainmenu li:hover {
   visibility: inherit;
-  /* fixes IE7 'sticky bug' */
-
-}
-.mainmenu li.selected > a {
-  color: #ff4e00;
+  outline: 0;
 }
 .mainmenu li:hover > a {
   color: #ff4e00;
 }
-.mainmenu li li,
-.mainmenu li li:hover {
-  border: none;
+.mainmenu li.selected > a {
+  color: #ff4e00;
 }
-.mainmenu li li a,
-.mainmenu li li:hover a {
-  padding: .25em 1em;
+.submenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.0;
 }
-.mainmenu li:hover,
-.mainmenu li.sfHover,
-.mainmenu li a:focus,
-.mainmenu li a:hover,
-.mainmenu li a:active {
-  outline: 0;
+.submenu ul {
+  margin-left: 0.5em;
+  list-style: none;
+}
+.submenu li.current > a {
+  color: #ff4e00;
+}
+.submenu li:hover {
+  visibility: inherit;
+}
+.submenu li:hover > a {
+  color: #ff4e00;
+}
+.submenu a {
+  display: block;
+  position: relative;
+  color: #0090ff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.submenu a > span {
+  display: block;
+  margin: 0.8em;
 }

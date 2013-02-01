@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Web.Mvc;
 using CommunitySite.Web.Data;
+using CommunitySite.Web.Data.Models;
 using CommunitySite.Web.Models;
 
 namespace CommunitySite.Web.Controllers
@@ -12,14 +13,14 @@ namespace CommunitySite.Web.Controllers
         // GET: /Home/
         public ActionResult Index()
         {
-            var uow = new UnitOfWork();
-            var eventModel = uow.Events.GetAll()
-                .OrderBy(x => x.FromDate)
-                .FirstOrDefault(x => x.ToDate >= DateTime.Now);
+            //var uow = new UnitOfWork();
+            //var eventModel = uow.Events.GetAll()
+            //    .OrderBy(x => x.FromDate)
+            //    .FirstOrDefault(x => x.ToDate >= DateTime.Now);
 
             var model = new HomeModel
                 {
-                    Event = eventModel
+                    Event = new Event()
                 };
             return View(model);
         }

@@ -195,9 +195,14 @@
     <None Include="Content\Menu.less" />
     <None Include="Content\Site.less" />
     <Content Include="Content\Images\logo_blog.png" />
-    <Content Include="Content\Menu.css" />
+    <Content Include="Content\Menu.css">
+      <DependentUpon>Menu.less</DependentUpon>
+    </Content>
     <Content Include="Content\Menu.min.css">
       <DependentUpon>Menu.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css">
+      <DependentUpon>Site.less</DependentUpon>
     </Content>
     <Content Include="Content\Site.min.css">
       <DependentUpon>Site.less</DependentUpon>
@@ -265,7 +270,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <None Include="BundleTransformer.Configuration.xsd">
       <SubType>Designer</SubType>
     </None>

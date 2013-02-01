@@ -35,6 +35,11 @@
         color: @accent_color;
         padding: .25em 1em;
         .font;
+
+        &:focus, &:hover, &:active
+        {
+            outline: 0;
+        }
     }
 
     & li
@@ -43,33 +48,66 @@
         position: relative;
 
         &:hover
-        {
-            visibility: inherit; /* fixes IE7 'sticky bug' */
+        {	
+            visibility: inherit;
+            outline: 0;
+
+            & > a
+            {
+                color: @active_color;
+            }
         }
 
         &.selected > a
         {
             color: @active_color;
         }
+    }
+}
 
-        &:hover > a
+.submenu
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.0;
+
+    & ul
+    {
+        margin-left: 0.5em;
+        list-style: none;
+    }
+
+    & li
+    {
+        &.current > a
         {
             color: @active_color;
         }
-        /*** DEMO SKIN ***/
-        & li, & li:hover
-        {
-            border: none;
 
-            & a
+        &:hover
+        {
+            visibility: inherit; 
+            & > a
             {
-                padding: .25em 1em;
+                color: @active_color;
             }
         }
+    }
 
-        &:hover, &.sfHover, & a:focus, & a:hover, & a:active
+    & a
+    {
+        display: block;
+        position: relative;
+        color: @accent_color;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+
+        & > span
         {
-            outline: 0;
+            display: block;
+            margin: 0.8em;
         }
     }
 }
