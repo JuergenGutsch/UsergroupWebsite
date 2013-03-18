@@ -7,13 +7,12 @@ namespace CommunitySite.Web.App_Start
 {
     public class IocConfig
     {
-        public static void RegisterDependenciew()
+        public static void RegisterDependencies()
         {
             var currentAssembly = typeof(MvcApplication).Assembly;
 
             var builder = new ContainerBuilder();
 
-            // builder.Register(c => new Logger()).As<ILogger>().InstancePerHttpRequest();
             builder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>));
             builder.RegisterType(typeof(UnitOfWork)).As(typeof(IUnitOfWork));
 

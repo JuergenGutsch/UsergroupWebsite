@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using CommunitySite.Web.Data.Models;
+using Gos.SimpleObjectStore;
 using NUnit.Framework;
-using XmlRepository.DataProviders;
-
 namespace CommunitySite.Tests
 {
     [TestFixture]
@@ -19,8 +18,9 @@ namespace CommunitySite.Tests
         [SetUp]
         public void Setup()
         {
-            XmlRepository.XmlRepository.DefaultQueryProperty = "Id";
-            XmlRepository.XmlRepository.DataProvider = new XmlFileProvider(@"C:\Git\UsergroupWebsite\CommunitySite.Web\App_Data");
+            ObjectStore.DefaultQueryProperty = "Id";
+            ObjectStore.DataProvider = new DataProvider(@"C:\Git\UsergroupWebsite\CommunitySite.Web\App_Data");
+            ObjectStore.FormatOutput = true;
         }
 
         [Test]
@@ -180,9 +180,18 @@ namespace CommunitySite.Tests
                             ImageUrl = String.Empty,
                             UseGravatar = true
                         },
+                    new Person
+                        {
+                            Id = Guid.NewGuid(),
+                            FirstName = "Dennis",
+                            Lastname = "Traub",
+                            Email = String.Empty,
+                            ImageUrl = String.Empty,
+                            UseGravatar = true
+                        },
                 };
 
-            using (var repository = XmlRepository.XmlRepository.GetInstance<Person>())
+            using (var repository = ObjectStore.GetInstance<Person>())
             {
                 repository.DeleteAllOnSubmit();
                 repository.SubmitChanges();
@@ -316,10 +325,19 @@ Gregor ist auch freier Autor, Speaker und Microsoft CLIPler der INdotNET (Ingols
 Er ist MCSD, MCITP Database Developer und MCPD Web + Enterprise Application Developer. 2010 und 2011 wurde er von Microsoft zum Most Valuable Professional (MVP) für SQL Server ernannt. 
 
 Er engagiert sich zusätzlich im Vorstand des Just Community e.V. (<a href=""http://www.justcommunity.de"">http://www.justcommunity.de</a>) und als Leiter der .NET User Group Frankfurt (<a href=""http://www.dotnet-ug-frankfurt.de"">http://www.dotnet-ug-frankfurt.de</a>). Sein Blog finden Sie unter: <a href=""http://kostjaklein.wordpress.com"">http://kostjaklein.wordpress.com</a>"
+                        },
+                    new Speaker
+                        {
+                            Id = Guid.NewGuid(),
+                            PersonId = GetPersondIdByName("Dennis"),
+                            Description =
+                                @"Als Softwareentwickler und IT-Berater interessiert sich Dennis Traub besonders für Software Craftmanship, Agile Entwicklungsmethoden und Domain-Driven Design. Mit 20 Jahren Erfahrung in der Softwareentwicklung liegt sein derzeitiger Schwerpunkt auf Web- und Cloud-basierten Geschäftsanwendungen sowie Systemen für Qualitätsmanagement, Risikoanalyse und Sicherheit im Luftverkehr. Er ist regelmäßiger Sprecher auf Konferenzen und Entwicklerevents, Autor und Trainer.
+
+In seiner Freizeit steht Dennis bei <a href=""http://stackoverflow.com/users/158668/dennis-traub"">Stack Overflow</a> und in Usergroups anderen Entwicklern mit Rat und Tat zur Seite. Er ist Moderator der <a href=""http://online-usergroup.de/"">.Net Online Usergroup</a> und Mitglied der <a href=""http://www.dotnet-paderborn.de/"">.Net-User Group Paderborn</a>. Er lebt mit seiner Familie in der Nähe von Paderborn. Bei Twitter findet man ihn unter <a href=""https://twitter.com/DTraub"">@DTraub</a>."
                         }
                 };
 
-            using (var repository = XmlRepository.XmlRepository.GetInstance<Speaker>())
+            using (var repository = ObjectStore.GetInstance<Speaker>())
             {
                 repository.DeleteAllOnSubmit();
                 repository.SubmitChanges();
@@ -380,7 +398,7 @@ Er engagiert sich zusätzlich im Vorstand des Just Community e.V. (<a href=""htt
                         },
                 };
 
-            using (var repository = XmlRepository.XmlRepository.GetInstance<Location>())
+            using (var repository = ObjectStore.GetInstance<Location>())
             {
                 repository.DeleteAllOnSubmit();
                 repository.SubmitChanges();
@@ -804,7 +822,7 @@ Anschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
                     new Event
                         {
                             Id = Guid.NewGuid(),
-                            Title = @"48. Treffen mit Jürgen Gutsch und Entwicklung eine Moile optimierten Community Webiste",
+                            Title = @"48. Treffen mit Jürgen Gutsch und Entwicklung eine mobile-optimierten Community Webiste",
                             Teaser =
                                 @"Jürgen stellt bei diesem Treffen die neue Website des .NET-Stammtisch vor und zeigt deren Entwicklung",
                             Description =
@@ -847,10 +865,27 @@ Anschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
                             ToDate = new DateTime(2013, 5, 8, 22, 00, 00),
                             LocationId = GetLocationIdByName("Hotel Restaurant Bahnhof Post"),
                             SpeakerIds = new List<Guid> {GetSpeakerIdByPersonName("Constantin")},
+                        },
+                    new Event
+                        {
+                            Id = Guid.NewGuid(),
+                            Title = @"49. Treffen mit Dennis Traub und Einführung in CQRS",
+                            Teaser =
+                                @"Mit der etwas sperrig benannten Command-Query Responsibility Segregation, kurz CQRS, werden einerseits eine Reihe von Prinzipien der modernen Softwareentwicklung (SOLID, Separation of Concerns, etc.) auf Architekturebene angewandt. Andererseits ist es eine konsequente Weiterentwicklung der Ideen hinter Domain-Driven Design, insbesondere in Hinblick auf verteilte Anwendungen und sogenannte ""Occasionally Connected Systems"", wie sie z.B. häufig im mobilen Umfeld zur Anwendung kommen.",
+                            Description =
+                                @"Gleichzeitig wird CQRS fälschlicherweise oft als eine überladene, theoretische und sehr komplizierte Sammlung von Mustern und Technologien wahrgenommen. In Wirklichkeit ist CQRS sehr einfach.
+
+Nach einer kurzen Wiederholung der wichtigsten Aspekte des Domain-Driven Design (DDD) werden in diesem Vortrag die Grundzüge einer CQRS-Anwendung aufgezeigt, und wie man die zu Grunde liegenden Ideen ganz einfach auch in eigenen Projekten einsetzen kann.
+
+Anschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+                            FromDate = new DateTime(2013, 3, 20, 19, 00, 00),
+                            ToDate = new DateTime(2013, 3, 20, 22, 00, 00),
+                            LocationId = GetLocationIdByName("Hotel Restaurant Bahnhof Post"),
+                            SpeakerIds = new List<Guid> {GetSpeakerIdByPersonName("Dennis")},
                         }
                 };
 
-            using (var repository = XmlRepository.XmlRepository.GetInstance<Event>())
+            using (var repository = ObjectStore.GetInstance<Event>())
             {
                 repository.DeleteAllOnSubmit();
                 repository.SubmitChanges();

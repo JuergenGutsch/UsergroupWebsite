@@ -57,12 +57,6 @@
     <Reference Include="BundleTransformer.Less">
       <HintPath>..\packages\BundleTransformer.Less.1.6.14\lib\net40\BundleTransformer.Less.dll</HintPath>
     </Reference>
-    <Reference Include="cherryflavored.net">
-      <HintPath>..\packages\XmlRepository\cherryflavored.net.dll</HintPath>
-    </Reference>
-    <Reference Include="cherryflavored.net.Contracts">
-      <HintPath>..\packages\XmlRepository\cherryflavored.net.Contracts.dll</HintPath>
-    </Reference>
     <Reference Include="dotless.Core">
       <HintPath>..\packages\dotless.1.3.1.0\lib\dotless.Core.dll</HintPath>
     </Reference>
@@ -169,12 +163,6 @@
     <Reference Include="WebGrease">
       <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
     </Reference>
-    <Reference Include="XmlRepository">
-      <HintPath>..\packages\XmlRepository\XmlRepository.dll</HintPath>
-    </Reference>
-    <Reference Include="XmlRepository.Contracts">
-      <HintPath>..\packages\XmlRepository\XmlRepository.Contracts.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -188,7 +176,6 @@
     <Compile Include="Data\Models\Location.cs" />
     <Compile Include="Data\Repository.cs" />
     <Compile Include="Data\Models\Event.cs" />
-    <Compile Include="Data\IEntity.cs" />
     <Compile Include="Data\IRepository.cs" />
     <Compile Include="Data\Models\Person.cs" />
     <Compile Include="Data\Models\Speaker.cs" />
@@ -320,9 +307,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Data\Core\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gos.SimpleObjectStore\Gos.SimpleObjectStore.csproj">
+      <Project>{3EBD17BA-6668-4CB2-A74A-8807F4EAA163}</Project>
+      <Name>Gos.SimpleObjectStore</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

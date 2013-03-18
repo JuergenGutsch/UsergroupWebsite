@@ -33,14 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="cherryflavored.net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f02d69713f90b29e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XmlRepository\cherryflavored.net.dll</HintPath>
-    </Reference>
-    <Reference Include="cherryflavored.net.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f02d69713f90b29e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XmlRepository\cherryflavored.net.Contracts.dll</HintPath>
-    </Reference>
     <Reference Include="HttpSimulator">
       <HintPath>..\packages\HttpSimulator.1.0.0.0\lib\Net40\HttpSimulator.dll</HintPath>
     </Reference>
@@ -111,14 +103,6 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="XmlRepository, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XmlRepository\XmlRepository.dll</HintPath>
-    </Reference>
-    <Reference Include="XmlRepository.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XmlRepository\XmlRepository.Contracts.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Wenn_UnitOfWork_is_resolved.cs" />
@@ -137,6 +121,10 @@
     <ProjectReference Include="..\CommunitySite.Web\CommunitySite.Web.csproj">
       <Project>{D6A3057E-8A99-4379-8FF3-2DC9B4AD2B83}</Project>
       <Name>CommunitySite.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gos.SimpleObjectStore\Gos.SimpleObjectStore.csproj">
+      <Project>{3EBD17BA-6668-4CB2-A74A-8807F4EAA163}</Project>
+      <Name>Gos.SimpleObjectStore</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

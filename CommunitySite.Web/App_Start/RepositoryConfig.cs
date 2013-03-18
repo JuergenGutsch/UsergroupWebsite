@@ -1,5 +1,5 @@
 using System.Web;
-using XmlRepository.DataProviders;
+using Gos.SimpleObjectStore;
 
 namespace CommunitySite.Web.App_Start
 {
@@ -7,8 +7,9 @@ namespace CommunitySite.Web.App_Start
     {
         public static void RegisterProvider()
         {
-            XmlRepository.XmlRepository.DefaultQueryProperty = "Id";
-            XmlRepository.XmlRepository.DataProvider = new XmlFileProvider(HttpContext.Current.Server.MapPath("~/App_Data/"));
+            ObjectStore.DefaultQueryProperty = "Id";
+            ObjectStore.DataProvider = new DataProvider(HttpContext.Current.Server.MapPath("~/App_Data/"));
+            ObjectStore.FormatOutput = true;
         }
     }
 }

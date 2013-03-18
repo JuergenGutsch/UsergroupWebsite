@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using XmlRepo = XmlRepository.XmlRepository;
+using Gos.SimpleObjectStore;
 
 namespace CommunitySite.Web.Data
 {
@@ -8,7 +8,7 @@ namespace CommunitySite.Web.Data
     {
         public IEnumerable<TEntity> GetAll()
         {
-            using (var repository = XmlRepo.GetInstance<TEntity>())
+            using (var repository = ObjectStore.GetInstance<TEntity>())
             {
                 return repository.LoadAll();
             }
@@ -16,7 +16,7 @@ namespace CommunitySite.Web.Data
 
         public TEntity GetById(Guid id)
         {
-            using (var repository = XmlRepo.GetInstance<TEntity>())
+            using (var repository = ObjectStore.GetInstance<TEntity>())
             {
                 return repository.LoadBy(x => x.Id == id);
             }
@@ -24,7 +24,7 @@ namespace CommunitySite.Web.Data
 
         public void SaveOrUpdate(TEntity entity)
         {
-            using (var repository = XmlRepo.GetInstance<TEntity>())
+            using (var repository = ObjectStore.GetInstance<TEntity>())
             {
                 repository.SaveOnSubmit(entity);
                 repository.SubmitChanges();
@@ -38,7 +38,7 @@ namespace CommunitySite.Web.Data
 
         public void Delete(Guid id)
         {
-            using (var repository = XmlRepo.GetInstance<TEntity>())
+            using (var repository = ObjectStore.GetInstance<TEntity>())
             {
                 repository.DeleteOnSubmit(x => x.Id == id);
                 repository.SubmitChanges();

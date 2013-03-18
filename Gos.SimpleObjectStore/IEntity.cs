@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace CommunitySite.Web.Data
+namespace Gos.SimpleObjectStore
 {
     public interface IEntity
     {

@@ -26,7 +26,7 @@ namespace CommunitySite.Tests
         [Test]
         public void it_schould_not_be_Null()
         {
-            IocConfig.RegisterDependenciew();
+            IocConfig.RegisterDependencies();
 
             var unitOfWork = DependencyResolver.Current.GetService<IUnitOfWork>();
 
@@ -36,7 +36,7 @@ namespace CommunitySite.Tests
         [Test]
         public void its_Events_schould_not_be_Null()
         {
-            IocConfig.RegisterDependenciew();
+            IocConfig.RegisterDependencies();
 
             var unitOfWork = DependencyResolver.Current.GetService<IUnitOfWork>();
 

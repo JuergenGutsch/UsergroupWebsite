@@ -1,5 +1,6 @@
-﻿using NUnit.Framework;
-using XmlRepository.DataProviders;
+﻿using CommunitySite.Web.Data.Models;
+using Gos.SimpleObjectStore;
+using NUnit.Framework;
 
 namespace CommunitySite.Tests
 {
@@ -9,8 +10,10 @@ namespace CommunitySite.Tests
         [SetUp]
         public void Setup()
         {
-            XmlRepository.XmlRepository.DefaultQueryProperty = "Id";
-            XmlRepository.XmlRepository.DataProvider = new XmlFileProvider(@"C:\Git\UsergroupWebsite\CommunitySite.Web\App_Data");
+            using (var repository = ObjectStore.GetInstance<Event>())
+            {
+
+            }
         }
 
         [Test]
