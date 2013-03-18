@@ -1,5 +1,5 @@
 ﻿﻿using System.Web.Mvc;
-using CommunitySite.Web.App_Start;
+﻿using CommunitySite.Web.App_Start;
 ﻿using CommunitySite.Web.Data;
 ﻿using NUnit.Framework;
 using Subtext.TestLibrary;
@@ -26,7 +26,8 @@ namespace CommunitySite.Tests
         [Test]
         public void it_schould_not_be_Null()
         {
-            IocConfig.RegisterDependencies();
+            // IocConfig.RegisterDependencies();
+            NinjectWebCommon.Start();
 
             var unitOfWork = DependencyResolver.Current.GetService<IUnitOfWork>();
 
@@ -36,7 +37,8 @@ namespace CommunitySite.Tests
         [Test]
         public void its_Events_schould_not_be_Null()
         {
-            IocConfig.RegisterDependencies();
+            // IocConfig.RegisterDependencies();
+            NinjectWebCommon.Start();
 
             var unitOfWork = DependencyResolver.Current.GetService<IUnitOfWork>();
 

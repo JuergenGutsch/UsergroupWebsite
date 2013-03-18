@@ -13,10 +13,4 @@ namespace CommunitySite.Web.Data.Models
         public string ImageUrl { get; set; }
         public bool UseGravatar { get; set; }
     }
-    public class Speaker : IEntity
-    {
-        public Guid Id { get; set; }
-        public string Description { get; set; }
-        public Guid PersonId { get; set; }
-    }
 }
