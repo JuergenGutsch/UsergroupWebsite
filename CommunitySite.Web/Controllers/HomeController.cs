@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Web.Mvc;
 using CommunitySite.Web.Data;
+using CommunitySite.Web.Data.Models;
 using CommunitySite.Web.Models;
 
 namespace CommunitySite.Web.Controllers
@@ -20,8 +21,12 @@ namespace CommunitySite.Web.Controllers
         public ActionResult Index()
         {
             var eventModel = _unitOfWork.Events.GetAll()
-                .OrderBy(x => x.FromDate)
-                .FirstOrDefault(x => x.ToDate >= DateTime.Now);
+                                        .OrderBy(x => x.FromDate)
+                                        .FirstOrDefault(x => x.ToDate >= DateTime.Now) ?? new Event
+                                            {
+                                                Title = "Kein Event Gefunden",
+                                                Teaser = "Leider gibt es keine aktuellen Termine"
+                                            };
 
             var model = new HomeModel
                 {

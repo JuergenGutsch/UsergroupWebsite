@@ -3,13 +3,19 @@
 <article>
     <hgroup>
         <h2>@Html.DisplayFor(modelItem => Model.Title)</h2>
-        <h3>@Html.DisplayFor(modelItem => Model.FromDate) - @Html.DisplayFor(modelItem => Model.ToDate)</h3>
+        @if (Model.Id != Guid.Empty)
+        {
+            <h3>@Html.DisplayFor(modelItem => Model.FromDate) - @Html.DisplayFor(modelItem => Model.ToDate)</h3>
+        }
     </hgroup>
     <p>
-        @Html.DisplayFor(modelItem => Model.Teaser)
+        @Html.Raw(Model.Teaser)
     </p>
     <footer>
-        <p>@Html.ActionLink("Details", "Detail", "Events", new { id = Model.Id }, new {})</p>
+        @if (Model.Id != Guid.Empty)
+        {
+            <p>@Html.ActionLink("Details", "Detail", "Events", new { id = Model.Id }, new { })</p>
+        }
         <p>&nbsp;</p>
     </footer>
 </article>
