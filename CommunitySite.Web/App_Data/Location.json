@@ -34,5 +34,17 @@
     "Name": "Restaurant Seerhein",
     "Address": "Spanierstraße 3; 78467 Konstanz",
     "Capacity": 20
+  },
+  {
+    "Id": "4B4ED4D8-B1F1-4870-BB40-4C8DEF6F4426",
+    "Name": "Restaurant Stromeyer - Die Bleiche",
+    "Address": "Bleicherstraße 8; 78467 Konstanz",
+    "Capacity": 20
+  },
+  {
+    "Id": "FAF7F7A3-76A3-4E7E-A931-BD15E0607030",
+    "Name": "Steigenberger Inselhotel",
+    "Address": "Auf der Insel 1, 78462 Konstanz",
+    "Capacity": 500
   }
 ]

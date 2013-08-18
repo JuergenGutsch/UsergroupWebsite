@@ -151,5 +151,41 @@
     "Password": null,
     "ImageUrl": "",
     "UseGravatar": true
+  },
+  {
+    "Id": "D108611B-5C2C-4C90-9011-DA430D823A7F",
+    "FirstName": "Roberto",
+    "Lastname": "Bez",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "165B8999-30A5-460A-A689-F6AC4DDD55C7",
+    "FirstName": "Timur",
+    "Lastname": "Zanagar",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  ,
+  {
+    "Id": "F07ADC28-6E93-48D0-AA58-91E20F36C864",
+    "FirstName": "Holger",
+    "Lastname": "Wendel",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "B7C433A2-27E3-4E7B-AA26-D788E621ADF2",
+    "FirstName": "Gordon",
+    "Lastname": "Breuer",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
   }
 ]

@@ -356,15 +356,28 @@
     "AttandeeIds": []
   },
   {
-    "Id": "bc454d61-89d6-4c70-bf82-cb3c8ee97ecf",
-    "Title": "1. .NET-Stammtisch Code-Camp mit einem Windows8 Hackathon",
-    "FromDate": "2013-03-23T09:00:00",
-    "ToDate": "2013-03-23T17:00:00",
-    "Teaser": "Der erste 1. .NET-Stammtisch Code-Camp findet mit einem Hackthon rund um die App-Entwicklung für Windows 8 statt.",
-    "Description": "Alle Teilnehmer sollten neben einem eigenen PC mit Windows 8 und einer Version von Visual Studio 2012 auch Kenntnisse in HTML5/JS bzw. .NET/Silverlight/XAML/C# mitbringen. Durch die professionelle Unterstützung seitens Microsoft lohnt sich die Teilnahme auch für Entwickler, die bislang kaum Kontakt mit der Programmierung von Apps hatten.\r\n\r\nDas Ziel ist es möglichst viele Apps zu entwickeln und Entwickler, die an dem ein oder anderem Problem sitzen, voran zu bringen. Wir haben hier die Möglichkeit in einer lockeren Atmosphäre, Probleme bei der App-Entwicklung oder über Aufgaben und Konzepte zu diskutieren und diese dann möglichst weit zu treiben",
-    "LocationId": "f1a51103-7545-4532-a1a1-1a6fb1242bc6",
+    "Id": "37c51334-61c9-43f9-b7c7-91c89e6fd852",
+    "Title": "49. Treffen mit Dennis Traub und Einführung in CQRS",
+    "FromDate": "2013-03-20T19:00:00",
+    "ToDate": "2013-03-20T22:00:00",
+    "Teaser": "Mit der etwas sperrig benannten Command-Query Responsibility Segregation, kurz CQRS, werden einerseits eine Reihe von Prinzipien der modernen Softwareentwicklung (SOLID, Separation of Concerns, etc.) auf Architekturebene angewandt. Andererseits ist es eine konsequente Weiterentwicklung der Ideen hinter Domain-Driven Design, insbesondere in Hinblick auf verteilte Anwendungen und sogenannte \"Occasionally Connected Systems\", wie sie z.B. häufig im mobilen Umfeld zur Anwendung kommen.",
+    "Description": "Gleichzeitig wird CQRS fälschlicherweise oft als eine überladene, theoretische und sehr komplizierte Sammlung von Mustern und Technologien wahrgenommen. In Wirklichkeit ist CQRS sehr einfach.\r\n\r\nNach einer kurzen Wiederholung der wichtigsten Aspekte des Domain-Driven Design (DDD) werden in diesem Vortrag die Grundzüge einer CQRS-Anwendung aufgezeigt, und wie man die zu Grunde liegenden Ideen ganz einfach auch in eigenen Projekten einsetzen kann.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
     "SpeakerIds": [
-      "110350cb-49a6-4b41-ade1-afc4dcdb7460"
+      "a78ce0b2-286a-469f-9dd1-66b86273040b"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "D78EBCAD-EABD-4E10-9E31-67C0526F7736",
+    "Title": "50. Treffen mit Roberto Bez und Single Page Applications",
+    "FromDate": "2013-03-20T19:00:00",
+    "ToDate": "2013-03-20T22:00:00",
+    "Teaser": "Im Rahmen der User Group Tour Developer Week wird uns Kerstin Hartmann von der NMG und Roberto Bez besuchen. Roberto wird dabei einen Vortrag über Single Page Application (kurz: SPA) halten. Kerstin wird sowohl ein kleines Gewinnspiel als auch einige dotnetpro Hefte mitbringen.",
+    "Description": "Eine Single Page Application (kurz: SPA) ist eine Web-Anwendung bestehend aus nur einer Seite, bei welcher im Normalfall das gesamte HTML am Anfang  geladen wird und anschließend per JavaScript gesteuert wird. Auch in ASP.NET bzw. in den Web Tools ab Version 2012.2 gibt es eine Projektvorlage um genau eine solche Art von Webseiten umzusetzen - das Ganze mit Hilfe von jQuery und Knockout.js, einem einfachen aber dennoch mächtigen, clientseitigen MVVM-Framework. Durch das deklarative data-binding Konzept von Knockout und der in ASP.NET MVC 4 eingeführten WebAPI, bietet die Projektvorlage eine solide Startbasis für alle Einsteiger. Die damit verbundene Vorgehensweise ist natürlich kein Gesetz, sondern viel mehr eine Richtlinie an welche man sich halten kann - sofern sie für jemanden Sinn macht. In diesem Vortrag werden neben den Vor- und Nachteilen auch das Warum und Wieso von SPA's praxisnah erklärt.<br />&nbsp;<br /><b>Roberto Bez</b> ist als Projektleiter bei der Firma <a href='http://www.simedia.com/'>SiMedia GmbH</a> tätig. Er beschäftigt sich seit mehreren Jahren mit Themen rund um das .NET Framework. Für Roberto bedeutet das Entwickeln nicht nur Arbeit, sondern auch Freude, Motivation und täglich neue, aufregende Herausforderungen. Besonders gerne setzt er sich mit neuen Webtechnologien sowie Datenbanken aller Art auseinander und versucht diese in die tägliche Anwendungsentwicklung mit einzubringen. Seinen Blog finden Sie unter <a href='http://devangelist.de/'>devangelist</a>.",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "a78ce0b2-286a-469f-9dd1-66b86273040b"
     ],
     "AttandeeIds": []
   },
@@ -382,16 +395,70 @@
     "AttandeeIds": []
   },
   {
-    "Id": "37c51334-61c9-43f9-b7c7-91c89e6fd852",
-    "Title": "49. Treffen mit Dennis Traub und Einführung in CQRS",
-    "FromDate": "2013-03-20T19:00:00",
-    "ToDate": "2013-03-20T22:00:00",
-    "Teaser": "Mit der etwas sperrig benannten Command-Query Responsibility Segregation, kurz CQRS, werden einerseits eine Reihe von Prinzipien der modernen Softwareentwicklung (SOLID, Separation of Concerns, etc.) auf Architekturebene angewandt. Andererseits ist es eine konsequente Weiterentwicklung der Ideen hinter Domain-Driven Design, insbesondere in Hinblick auf verteilte Anwendungen und sogenannte \"Occasionally Connected Systems\", wie sie z.B. häufig im mobilen Umfeld zur Anwendung kommen.",
-    "Description": "Gleichzeitig wird CQRS fälschlicherweise oft als eine überladene, theoretische und sehr komplizierte Sammlung von Mustern und Technologien wahrgenommen. In Wirklichkeit ist CQRS sehr einfach.\r\n\r\nNach einer kurzen Wiederholung der wichtigsten Aspekte des Domain-Driven Design (DDD) werden in diesem Vortrag die Grundzüge einer CQRS-Anwendung aufgezeigt, und wie man die zu Grunde liegenden Ideen ganz einfach auch in eigenen Projekten einsetzen kann.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "Id": "91F21D88-1E6D-430A-AA2B-EB1E0B067DE0",
+    "Title": "52. Treffen mit Timur Zanagar und Mobile Entwicklung unter Mono mit Xamarin",
+    "FromDate": "2013-06-09T19:00:00",
+    "ToDate": "2013-06-09T22:00:00",
+    "Teaser": "Mit der Entstehung des Mono Projekts im Jahre 2004 wurde der Weg für die heutige Firma Xamarin und im Februar 2013 herausgebrachten Xamarin 2.0 Produktreihe geebnet. \r\n\r\nIn dieser Session soll aufgezeigt werden, welche Möglichkeiten die Programmiersprache C# für die Entwicklung hat und warum auch im mobilen Segment sehr stark und einzigartig ist. Auch wird auf die Entstehung dieser eingegangen. ",
+    "Description": "Diese Basis, eine Programmiersprache, auf iOS, Android und Windows Phone verwenden zu können, bietet den Entwicklern weitaus bessere Möglichkeiten für die mobile Entwicklung, die aber dennoch ein natives Resultat hervorbringen. \r\n\r\nDie Möglichkeiten wird Timur gerne in dieser Session vorführen und somit aufzeigen, dass die mobile Entwicklung mit Hilfe von C# auf einer ganz anderen Ebene ausgeführt werden kann.",
+    "LocationId": "4B4ED4D8-B1F1-4870-BB40-4C8DEF6F4426",
+    "SpeakerIds": [
+      "165B8999-30A5-460A-A689-F6AC4DDD55C7"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "A4A86383-6377-4FCE-8763-E1FA05023EB7",
+    "Title": "53. Treffen mit Roberto Danti und AOP",
+    "FromDate": "2013-07-10T19:00:00",
+    "ToDate": "2013-07-10T22:00:00",
+    "Teaser": "Roberto geht mit der Frage um, ob Aspekt orientiertes Programmieren ein neues Paradigma ist oder eine Ergänzung zur Objektorientierte Techniken ist.",
+    "Description": "Mit einigen Beispielen, werden die Möglichkeiten von AOP gezeigt und es wird <b>Fody</b> vorgestellt, einen open-source Framework mit dem Aspekt orientierte Verfahren umgesetzt werden können. \r\n\r\nRoberto ist Senior Software Entwickler im Bereich .NET \r\nSeit 1999 entwickelt Roberto, BI-Lösungen mit VB6, Excel VBA und Applix TM1. Im Frühling 2006 hat Roberto den Sprung in die .NET-Welt gewagt und arbeite erfolgreich an die Entwicklung von innovative .NET-Lösungen. Momentan liegt sein Interesse an ASP.NET MVC mit Windows Azure und WPF. \r\n\r\nSeit  2009 ist Roberto UG-Mitglied des .NET-Stammtisch Konstanz-Kreuzlingen (http://dotnetkk.de) wo auch als Referent tätig sein darf. Robertos Blog: http://robdanti.wordpress.com",
     "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
     "SpeakerIds": [
-      "a78ce0b2-286a-469f-9dd1-66b86273040b"
+      "65ccda37-01a7-4e24-bca9-b16486dbf0e7"
     ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "973F9CE3-75CF-4D15-8D4D-62BAA0634B8C",
+    "Title": "54. Treffen: C.S.I. - Dem Windows Phone auf der Spur",
+    "FromDate": "2013-08-14T19:00:00",
+    "ToDate": "2013-08-14T22:00:00",
+    "Teaser": "C.S.I.: WP – Dem Windows Phone auf der Spur ist eine Roadshow aus und für die .NET-Community rund um die neueste Version von Microsofts Smartphone-Plattform \"Windows Phone 8\".",
+    "Description": "Die Roadshow präsentiert in Form von Vorträgen die wichtigsten und interessantesten Neuerungen der Windows Phone 8 Plattform - zum einen eine Demonstration der Funktion in Aktion (kurzes Demo-Video vor jedem Themenabschnitt), zum anderen eine Beschreibung und anschließende Code-Beispiele durch die Speaker. Im Anschluss gibt es eine offene Frage- und Diskussionsrunde zwischen den Windows Phone-Experten und den Teilnehmern. Geplant ist ebenfalls, verfügbare Devices für die Teilnehmer auszustellen zum Ausprobieren vor-Ort (Geräteverfügbarkeit vorausgesetzt).",
+    "LocationId": "4B4ED4D8-B1F1-4870-BB40-4C8DEF6F4426",
+    "SpeakerIds": [
+      "65ccda37-01a7-4e24-bca9-b16486dbf0e7"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "244FFCB0-2497-4BCD-BD28-478B2B8C66BC",
+    "Title": "55. Treffen mit 5 mal 20 Minuten Vorträgen",
+    "FromDate": "2013-09-11T19:00:00",
+    "ToDate": "2013-09-11T22:00:00",
+    "Teaser": "Bei diesem Treffen werden 5 Mitglieder der Usergroup je einen 20 Minütigen Vortrag über ein .NET-relevantes Thema halten.",
+    "Description": "Bis jetzt haben sich zwei Mitglieder für je ein Thema angemeldet:<ul>
+<li>Marc Hochleutner über den SharePoint</li> 
+<li>Roberto Danti über neues im ASP.NET MVC 4</li> 
+<li></li> 
+</ul>
+<p>Weitere Vorschläge sind sehr willkommen und können in der Facebook-Gruppe, der XING-Gruppe oder direkt bei Jürgen angemeldet werden.</p>
+<p>Für dieses Treffen haben wir uns von der .NET-Usergroup in Bern inspirieren lassen, die diese Art der Veranstaltung bereits umgesetzt haben.</p>",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "173CFF35-12F5-4FE2-ACEA-D9A31EF73C6A",
+    "Title": "Agile Bodensee Konferenz 2013",
+    "FromDate": "2013-09-25T09:00:00",
+    "ToDate": "2013-09-26T18:00:00",
+    "Teaser": "Am Donnerstag, den 26. September 2013, werden sich IT-Spezialisten aus Deutschland, Österreich und der Schweiz zur größten agile Konferenz der IT-Szene im Bodenseeraum, der Agile Bodensee, im Steigenberger Inselhotel in Konstanz treffen.",
+    "Description": "Unter dem Motto “Starting Agile!” zeigten international sowie lokal vorausdenkende IT-Fachleute, wie die Zusammenarbeit in IT-Projekten innovativ und konkurrenzfähig wird. http://www.agile-bodensee.com/",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
     "AttandeeIds": []
   }
 ]
