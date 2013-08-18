@@ -5,4 +5,21 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Detail</h2>
+<article>
+    <hgroup>
+        <h2>@Html.DisplayFor(modelItem => Model.Title)</h2>
+        @if (Model.Id != Guid.Empty)
+        {
+            <h3>@Html.DisplayFor(modelItem => Model.FromDate) - @Html.DisplayFor(modelItem => Model.ToDate)</h3>
+        }
+    </hgroup>
+    <p>
+        @Html.Raw(Model.Teaser)
+    </p>
+    <p>
+        @Html.Raw(Model.Description)
+    </p>
+    <footer>
+        <p>&nbsp;</p>
+    </footer>
+</article>
