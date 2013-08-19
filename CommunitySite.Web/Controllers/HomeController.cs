@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
+using AutoMapper;
 using CommunitySite.Web.Data;
 using CommunitySite.Web.Data.Models;
 using CommunitySite.Web.Models;
@@ -20,7 +21,7 @@ namespace CommunitySite.Web.Controllers
         // GET: /Home/
         public ActionResult Index()
         {
-            var eventModel = _unitOfWork.Events.GetAll()
+            var source = _unitOfWork.Events.GetAll()
                                         .OrderBy(x => x.FromDate)
                                         .FirstOrDefault(x => x.ToDate >= DateTime.Now) ?? new Event
                                             {
@@ -30,7 +31,7 @@ namespace CommunitySite.Web.Controllers
 
             var model = new HomeModel
                 {
-                    Event = eventModel
+                    Event = source
                 };
             return View(model);
         }
