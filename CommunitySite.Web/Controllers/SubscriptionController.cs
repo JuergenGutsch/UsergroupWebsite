@@ -3,16 +3,19 @@ using System.Web.Mvc;
 using CommunitySite.Web.Data;
 using CommunitySite.Web.Data.Models;
 using CommunitySite.Web.Models;
+using CommunitySite.Web.Services;
 
 namespace CommunitySite.Web.Controllers
 {
     public class SubscriptionController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IEmailService _mailService;
 
-        public SubscriptionController(IUnitOfWork unitOfWork)
+        public SubscriptionController(IUnitOfWork unitOfWork, IEmailService mailService)
         {
             _unitOfWork = unitOfWork;
+            _mailService = mailService;
         }
 
         [HttpGet]
@@ -32,7 +35,7 @@ namespace CommunitySite.Web.Controllers
         [HttpPost]
         public ActionResult Subscribe(string id, SubscribeModel model)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View(model);
             }
@@ -48,10 +51,15 @@ namespace CommunitySite.Web.Controllers
                     Id = Guid.NewGuid(),
                     Name = model.Name,
                     Email = model.Email,
-                    EventId = new Guid(id)
+                    EventId = loadetEvent != null ? loadetEvent.Id : Guid.Empty,
+                    IsActive = false,
+                    DateCreated = DateTime.Now,
+                    DataActivated = DateTime.MinValue
                 };
 
             _unitOfWork.Subscriptions.SaveOrUpdate(subscription);
+
+            _mailService.SendGlobalSubscriptionActivationMessage(subscription);
 
             return RedirectToAction("Subscribe");
         }

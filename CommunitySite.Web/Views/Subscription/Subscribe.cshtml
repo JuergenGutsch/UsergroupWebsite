@@ -14,9 +14,10 @@
     }
     <dl>
         <dt>@Html.LabelFor(model => model.Name)</dt>
-        <dd>@Html.TextBoxFor(model => model.Name) @Html.ValidationMessageFor(model => model.Name, "*")</dd>
+        <dd>@Html.TextBoxFor(model => model.Name) @Html.ValidationMessageFor(model => model.Name)</dd>
+        <br />
         <dt>@Html.LabelFor(model => model.Email)</dt>
-        <dd>@Html.TextBoxFor(model => model.Email) @Html.ValidationMessageFor(model => model.Email, "*")</dd>
+        <dd>@Html.TextBoxFor(model => model.Email) @Html.ValidationMessageFor(model => model.Email)</dd>
     </dl>
     <input type="submit" value="Absenden" />
 }

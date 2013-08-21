@@ -1,6 +1,7 @@
 ﻿@accent_color: #0090FF;
 @active_color: #FF4E00;
 @border_color: #808080;
+@validation_error_color: #e80c4d;
 @font_color: #000000;
 
 
@@ -117,11 +118,36 @@ img
     border: none 0;
 }
 
+form dl
+{
+    margin: 0;
+    padding: 0;
+
+    & dt
+    {
+        width: 80px;
+        display: inline-block;
+    }
+
+    & dd
+    {
+        width: 600px;
+        display: inline-block;
+
+        & input
+        {
+            width: 300px;
+            border: 1px solid @border_color;
+        }
+    }
+}
+
 @media screen and (max-width: 400px)
 {
     #header
     {
-		background-color:black;
+        background-color: black;
+
         & p
         {
             text-align: center;
@@ -133,4 +159,38 @@ img
             }
         }
     }
+}
+
+/* styles for validation helpers */
+.field-validation-error
+{
+    color: @validation_error_color;
+    font-weight: bold;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+input.input-validation-error
+{
+    border: 1px solid @validation_error_color;
+}
+
+input[type="checkbox"].input-validation-error
+{
+    border: 0 none;
+}
+
+.validation-summary-errors
+{
+    color: @validation_error_color;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid
+{
+    display: none;
 }

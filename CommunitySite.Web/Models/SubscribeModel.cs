@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using CommunitySite.Web.Data;
 using CommunitySite.Web.Data.Models;
 using FluentValidation;
 
@@ -15,8 +17,11 @@ namespace CommunitySite.Web.Models
     {
         public SubscribeValidator()
         {
-            RuleFor(model => model.Name).NotNull();
-            RuleFor(model => model.Email).NotNull().EmailAddress();
+            RuleFor(model => model.Name)
+                .NotNull();
+            RuleFor(model => model.Email)
+                .NotNull()
+                .EmailAddress();
         }
     }
 }

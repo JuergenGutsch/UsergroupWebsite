@@ -80,6 +80,22 @@ p {
 img {
   border: none 0;
 }
+form dl {
+  margin: 0;
+  padding: 0;
+}
+form dl dt {
+  width: 80px;
+  display: inline-block;
+}
+form dl dd {
+  width: 600px;
+  display: inline-block;
+}
+form dl dd input {
+  width: 300px;
+  border: 1px solid #808080;
+}
 @media screen and (max-width: 400px) {
   #header {
     background-color: black;
@@ -91,4 +107,26 @@ img {
     height: 76px;
     width: 150px;
   }
+}
+/* styles for validation helpers */
+.field-validation-error {
+  color: #e80c4d;
+  font-weight: bold;
+}
+.field-validation-valid {
+  display: none;
+}
+input.input-validation-error {
+  border: 1px solid #e80c4d;
+}
+input[type="checkbox"].input-validation-error {
+  border: 0 none;
+}
+.validation-summary-errors {
+  color: #e80c4d;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.validation-summary-valid {
+  display: none;
 }

@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Web.Mvc;
 using CommunitySite.Web.Data;
+using CommunitySite.Web.Models;
+using CommunitySite.Web.Services;
 using FluentValidation;
 using FluentValidation.Mvc;
 using Ninject.Modules;
@@ -73,15 +75,18 @@ namespace CommunitySite.Web.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            kernel.Bind(typeof(IRepository<>)).To(typeof(Repository<>));
-            kernel.Bind<IUnitOfWork>().To<UnitOfWork>();
+            kernel.Bind<IValidator<SubscribeModel>>().To<SubscribeValidator>();
+            kernel.Bind(typeof(IRepository<>)).To(typeof(Repository<>)).InTransientScope();
+            kernel.Bind<IUnitOfWork>().To<UnitOfWork>().InTransientScope();
+            kernel.Bind<IEmailService>().To<EmailService>().InTransientScope();
+            kernel.Bind<ISmtpService>().To<SmtpService>().InTransientScope();
         }        
     }
     public class FluentValidatorModule : NinjectModule
     {
         public override void Load()
         {
-            AssemblyScanner.FindValidatorsInAssemblyContaining<RepositoryConfig>()
+            AssemblyScanner.FindValidatorsInAssemblyContaining<FluentValidatorModule>()
                 .ForEach(match => Bind(match.InterfaceType).To(match.ValidatorType));
         }
     }
