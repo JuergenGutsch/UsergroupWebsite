@@ -20,6 +20,29 @@
         @Html.Raw(Model.Description)
     </p>
     <footer>
-        <p>&nbsp;</p>
+            <a
+                href="http://www.facebook.com/sharer.php?u=@Request.Url.AbsoluteUri"
+                target="_blank"
+                title="Click to share"><img src="~/Content/Images/facebook.png"></a>
+            &nbsp;
+            <a
+                href="http://twitter.com/share?text=.NET-Stammtisch Konstanz-Kreuzlingen: @Model.Title&url=@Request.Url.AbsoluteUri"
+                target="_blank"
+                title="Click to post to Twitter"><img src="~/Content/Images/tweet.png"></a>
+            &nbsp;
+            <a
+                href="https://plus.google.com/share?url=@Request.Url.AbsoluteUri"
+                target="_blank"
+                title="Click to share"><img src="~/Content/Images/google-plus.png"></a>
+            &nbsp;
+            <div data-counter="no_count" data-type="XING/Share" data-url="@Request.Url.AbsoluteUri" data-lang="de"></div>
+            <script>
+                ; (function (d, s) {
+                    var x = d.createElement(s),
+                      s = d.getElementsByTagName(s)[0];
+                    x.src = "https://www.xing-share.com/js/external/share.js";
+                    s.parentNode.insertBefore(x, s);
+                })(document, "script");
+            </script>
     </footer>
 </article>

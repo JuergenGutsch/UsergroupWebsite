@@ -198,7 +198,10 @@
     </None>
     <None Include="Content\Menu.less" />
     <None Include="Content\Site.less" />
+    <Content Include="Content\Images\facebook.png" />
+    <Content Include="Content\Images\google-plus.png" />
     <Content Include="Content\Images\logo_blog.png" />
+    <Content Include="Content\Images\tweet.png" />
     <Content Include="Content\Menu.css">
       <DependentUpon>Menu.less</DependentUpon>
     </Content>
@@ -278,10 +281,8 @@
           <DevelopmentServerPort>26567</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost/CommunitySite</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost81/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>True</UseCustomServer>
+          <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>http://localhost81/</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
