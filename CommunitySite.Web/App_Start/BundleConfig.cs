@@ -24,15 +24,17 @@ namespace CommunitySite.Web.App_Start
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            //bundles.Add(new StyleBundle("~/Content/css")
-            //    .Include("~/Content/site.css", "~/Content/menu.css"));
             
-            var css = new Bundle("~/bundles/css")
-                .Include("~/Content/site.less", "~/Content/menu.less");
-            css.Transforms.Add(new CssTransformer());
-            css.Transforms.Add(new CssMinify());
-            css.Orderer = new NullOrderer();
-            bundles.Add(css);
+            //var css = new Bundle("~/bundles/css")
+            //    .Include("~/Content/site.min.css", "~/Content/menu.min.css");
+            //css.Transforms.Add(new CssTransformer());
+            //css.Transforms.Add(new CssMinify());
+            //css.Orderer = new NullOrderer();
+            //bundles.Add(css);
+
+            bundles.Add(new StyleBundle("~/bundles/css").Include(
+                        "~/Content/site.min.css", 
+                        "~/Content/menu.min.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
