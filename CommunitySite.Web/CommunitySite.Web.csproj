@@ -200,6 +200,11 @@
     <Compile Include="Services\IEmailService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Event.json" />
+    <Content Include="App_Data\Location.json" />
+    <Content Include="App_Data\Person.json" />
+    <Content Include="App_Data\Speaker.json" />
+    <Content Include="App_Data\Subscription.json" />
     <None Include="BundleTransformer.Configuration.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -257,9 +262,7 @@
     <Content Include="Views\Events\Detail.cshtml" />
     <Content Include="Views\Subscription\Subscribe.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
