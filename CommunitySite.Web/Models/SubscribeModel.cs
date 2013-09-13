@@ -19,6 +19,7 @@ namespace CommunitySite.Web.Models
         {
             RuleFor(model => model.Name)
                 .NotNull();
+
             RuleFor(model => model.Email)
                 .NotNull()
                 .EmailAddress();

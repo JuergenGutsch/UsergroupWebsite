@@ -21,20 +21,20 @@ using Ninject.Web.Common;
 
 namespace CommunitySite.Web.App_Start
 {
-    public static class NinjectWebCommon 
+    public static class NinjectWebCommon
     {
         private static readonly Bootstrapper Bootstrapper = new Bootstrapper();
 
         /// <summary>
         /// Starts the application
         /// </summary>
-        public static void Start() 
+        public static void Start()
         {
             DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
             DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
             Bootstrapper.Initialize(CreateKernel);
         }
-        
+
         /// <summary>
         /// Stops the application.
         /// </summary>
@@ -42,7 +42,7 @@ namespace CommunitySite.Web.App_Start
         {
             Bootstrapper.ShutDown();
         }
-        
+
         /// <summary>
         /// Creates the kernel that will manage your application.
         /// </summary>
@@ -54,7 +54,7 @@ namespace CommunitySite.Web.App_Start
             kernel.Bind<IHttpModule>().To<HttpApplicationInitializationHttpModule>();
 
             RegisterValidation(kernel);
-            
+
             RegisterServices(kernel);
 
             DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
@@ -64,9 +64,10 @@ namespace CommunitySite.Web.App_Start
 
         private static void RegisterValidation(IKernel kernel)
         {
-            var ninjectValidatorFactory = new NinjectValidatorFactory(kernel);
-            ModelValidatorProviders.Providers.Add(new FluentValidationModelValidatorProvider(ninjectValidatorFactory));
-            DataAnnotationsModelValidatorProvider.AddImplicitRequiredAttributeForValueTypes = false;
+            FluentValidationModelValidatorProvider.Configure(provider =>
+                {
+                    provider.ValidatorFactory = new NinjectValidatorFactory(kernel);
+                });
         }
 
         /// <summary>
@@ -80,7 +81,7 @@ namespace CommunitySite.Web.App_Start
             kernel.Bind<IUnitOfWork>().To<UnitOfWork>().InTransientScope();
             kernel.Bind<IEmailService>().To<EmailService>().InTransientScope();
             kernel.Bind<ISmtpService>().To<SmtpService>().InTransientScope();
-        }        
+        }
     }
     public class FluentValidatorModule : NinjectModule
     {
