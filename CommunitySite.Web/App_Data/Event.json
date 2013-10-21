@@ -460,5 +460,21 @@
     "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
     "SpeakerIds": [],
     "AttandeeIds": []
+  },
+  {
+    "Id": "173CFF35-12F5-4FE2-ACEA-D9A31EF73C6A",
+    "Title": "56. Treffen: Tag der Entscheidung",
+    "FromDate": "2013-11-25T19:00:00",
+    "ToDate": "2013-11-26T22:00:00",
+    "Teaser": "Zu eine Art Mitgliederversammlung möchten wir alle Interessierten einladen über den Fortbestand des .NET-Stammtisch Konstanz-Kreuzlingen zu beraten.",
+    "Description": "In der letzten Zeit, bzw. in den letzten zwei Jahren, hat sich der .NET-Stammtisch mit sehr wenigen Interessierten getroffen und ist auch zwei oder dreimal ganz ausgefallen. Das ist für die Teilnehmer, die Sprecher und auch für das Team nicht ganz erfreulich. Die Gründe sind klar und sind größtenteils im Team zu finden. Mögliche Lösungen möchten wir mit allen interessierten Teilnehmern diskutieren.
+
+Themen:
+<ul><li>Wir möchten von allen Mitgliedern und Teilnehmern wissen, ob weiterhin Interesse an einer .NET-Usergroup in Konstanz und Kreuzlingen besteht.</li><li>Wir möchten von allen wissen, wie wir alle (auch die Mitglieder und Teilnehmer) das Angebot verbessern können.</li><li>Wir möchten vorstellen wie wir uns in Zukunft das Team vorstellen und wie es optimal funktionieren kann.</li><li>Sollte genug Interesse da sein, möchten wir wissen, welche Themen Interessant sind und welche Vorträge wir in den kommenden Monaten organisieren sollten.</li></ul>
+Wir hoffen natürlich auf viel Interesse und ein Zahlreiches Erscheinen und hoffen, dass es sich lohnt den .NET-Stammtisch weiter am leben zu halten.
+Das Stammtisch-Team",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
+    "AttandeeIds": []
   }
 ]
