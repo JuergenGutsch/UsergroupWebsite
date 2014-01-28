@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CommunitySite.Web.Data.Models.Event>
+﻿@model CommunitySite.Web.Models.EventDetailListModel
 
 @{
     ViewBag.Title = "Index";
@@ -10,6 +10,11 @@
         <h1>Die nächsten Veranstaltungen</h1>
         <p>Das Archiv finden Sie @Html.ActionLink("hier", "Archive")</p>
 
-        @{Html.RenderPartial("EventList", Model);}
+        @{
+            Html.RenderPartial("EventPager", Model);
+            Html.RenderPartial("EventList", Model.Events);
+            Html.RenderPartial("EventPager", Model);
+        }
+
     </div>
 </div>

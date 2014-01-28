@@ -1,21 +1,21 @@
-﻿@model CommunitySite.Web.Data.Models.Event
+﻿@model CommunitySite.Web.Models.EventDetailModel
 
 <div>
     <article>
         <hgroup>
-            <h2>@Model.Title</h2>
-            @if (Model.Id != Guid.Empty)
+            <h2>@Model.Event.Title</h2>
+            @if (Model.Event.Id != Guid.Empty)
             {
-                <h3>@Model.FromDate.ToString("ddd, dd. MMMM yyyy HH:mm") - @Model.ToDate.ToString("HH:mm") Uhr</h3>
+                <h3>@Model.Event.FromDate.ToString("ddd, dd. MMMM yyyy HH:mm") - @Model.Event.ToDate.ToString("HH:mm") Uhr</h3>
             }
         </hgroup>
         <p>
-            @Html.Raw(Model.Teaser)
+            @Html.Raw(Model.Event.Teaser)
         </p>
         <footer>
-            @if (Model.Id != Guid.Empty)
+            @if (Model.Event.Id != Guid.Empty)
             {
-                <p>@Html.ActionLink("Details", "Detail", "Calendar", new { id = Model.Id }, new { })</p>
+                <p>@Html.ActionLink("Details", "Detail", "Calendar", new { id = Model.Event.Id }, new { })</p>
             }
         </footer>
     </article>

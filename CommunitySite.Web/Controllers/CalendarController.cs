@@ -15,16 +15,58 @@ namespace CommunitySite.Web.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        public ActionResult Index()
+        public ActionResult Index(int? id)
         {
-            var events = _unitOfWork.Events.LoadAll(x => x.FromDate >= DateTime.Now).OrderBy(x => x.FromDate);
-            return View(events);
+            var currentPage = id.HasValue ? id.Value : 0;
+
+            var events = _unitOfWork.Events
+                .LoadAll(x => x.FromDate >= DateTime.Now)
+                .OrderBy(x => x.FromDate)
+                .Select(x => new EventDetailModel
+                {
+                    Event = x
+                }).ToList();
+
+            var model = new EventDetailListModel
+            {
+                Events = events.Skip(currentPage * 10).Take(10),
+                CurrentPage = currentPage,
+                PageCount = PageCount(events.Count())
+            };
+
+            return View(model);
         }
 
-        public ActionResult Archive()
+        private int PageCount(int itemsCount)
         {
-            var events = _unitOfWork.Events.LoadAll(x => x.ToDate < DateTime.Now).OrderByDescending(x => x.FromDate);
-            return View(events);
+            var pageCount = itemsCount / 10;
+            if (itemsCount % 10 > 0)
+            {
+                pageCount++;
+            }
+            return pageCount;
+        }
+
+        public ActionResult Archive(int? id)
+        {
+            var currentPage = id.HasValue ? id.Value : 0;
+
+            var events = _unitOfWork.Events
+                .LoadAll(x => x.ToDate < DateTime.Now)
+                .OrderByDescending(x => x.FromDate)
+                .Select(x => new EventDetailModel
+                {
+                    Event = x
+                }).ToList();
+
+            var model = new EventDetailListModel
+            {
+                Events = events.Skip(currentPage * 10).Take(10),
+                CurrentPage = currentPage,
+                PageCount = PageCount(events.Count())
+            };
+
+            return View(model);
         }
 
         public ActionResult Detail(Guid id)
@@ -41,7 +83,7 @@ namespace CommunitySite.Web.Controllers
 
         public ActionResult Create()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

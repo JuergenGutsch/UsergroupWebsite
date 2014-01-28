@@ -2,7 +2,6 @@
 using System.Linq;
 using System.Web.Mvc;
 using CommunitySite.Web.Data;
-using CommunitySite.Web.Data.Models;
 using CommunitySite.Web.Models;
 
 namespace CommunitySite.Web.Controllers
@@ -19,9 +18,13 @@ namespace CommunitySite.Web.Controllers
         public ActionResult Index()
         {
             var events = _unitOfWork.Events.LoadAll()
-                                        .OrderBy(x => x.FromDate)
-                                        .Where(x => x.ToDate >= DateTime.Now)
-                                        .Take(3);
+                .OrderBy(x => x.FromDate)
+                .Where(x => x.ToDate >= DateTime.Now)
+                .Take(3)
+                .Select(x => new EventDetailModel
+                {
+                    Event = x
+                }).ToList();
 
             var model = new HomeModel
                 {
