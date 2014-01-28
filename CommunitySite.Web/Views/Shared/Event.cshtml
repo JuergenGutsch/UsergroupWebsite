@@ -1,0 +1,22 @@
+﻿@model CommunitySite.Web.Data.Models.Event
+
+<div>
+    <article>
+        <hgroup>
+            <h2>@Model.Title</h2>
+            @if (Model.Id != Guid.Empty)
+            {
+                <h3>@Model.FromDate.ToString("ddd, dd. MMMM yyyy HH:mm") - @Model.ToDate.ToString("HH:mm") Uhr</h3>
+            }
+        </hgroup>
+        <p>
+            @Html.Raw(Model.Teaser)
+        </p>
+        <footer>
+            @if (Model.Id != Guid.Empty)
+            {
+                <p>@Html.ActionLink("Details", "Detail", "Calendar", new { id = Model.Id }, new { })</p>
+            }
+        </footer>
+    </article>
+</div>

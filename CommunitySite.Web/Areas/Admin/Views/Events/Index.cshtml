@@ -1,0 +1,33 @@
+﻿@model IEnumerable<CommunitySite.Web.Data.Models.Event>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles{
+    @Styles.Render("~/Content/admin")
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Events</h2>
+        <p>
+            Wähle eine Veranstaltung zum bearbeiten oder erstelle eine neue<br />
+            @Html.ActionLink("Neue Veranstaltung", "Insert", new { }, new { @class = "btn btn-primary" })
+        </p>
+        <div class="list-group">
+            @foreach (var item in Model)
+            {
+                <div class="list-group-item">
+                    <hgroup>
+                        <h3>@item.FromDate.ToString("Y")</h3>
+                        <h2 class="list-group-item-heading">
+                            @Html.ActionLink(item.Title, "Edit", new { id = item.Id })
+                        </h2>
+
+                    </hgroup>
+                </div>
+            }
+        </div>
+    </div>
+</div>

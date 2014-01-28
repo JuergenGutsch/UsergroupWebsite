@@ -1,0 +1,32 @@
+﻿@model CommunitySite.Web.Models.EventDetailModel
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <article class="col-md-12">
+        <hgroup>
+            <h2>@Model.Event.Title</h2>
+            @if (Model.Event.Id != Guid.Empty)
+            {
+                <h3>@Model.Event.FromDate.ToString("ddd, dd. MMMM yyyy HH:mm") - @Model.Event.ToDate.ToString("HH:mm") Uhr</h3>
+            }
+        </hgroup>
+        <p>
+            @Html.Raw(Model.Event.Teaser)
+        </p>
+        <p>
+            @Html.Raw(Model.Event.Description)
+        </p>
+        <h3>Veranstaltungsort:</h3>
+        <p>
+            <strong>@Model.Location.Name</strong><br />
+            @Model.Location.Address
+        </p>
+        <footer>
+            @*<p>@Model.SpeakerIds</p>*@
+        </footer>
+    </article>
+</div>

@@ -1,0 +1,79 @@
+﻿@model CommunitySite.Web.Models.HomeModel
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron home">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            @if (Model.Events.Any())
+            {
+                for (var i = 0; i < Model.Events.Count(); i++)
+                {
+                    if (i == 0)
+                    {
+                        <li data-target="#carousel-example-generic" data-slide-to="@i" class="active"></li>
+                    }
+                    else
+                    {
+                        <li data-target="#carousel-example-generic" data-slide-to="@i"></li>
+                    }
+                }
+            }
+            else
+            {
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            }
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            @if (Model.Events.Any())
+            {
+                var i = 0;
+                foreach (var item in Model.Events)
+                {
+                    if (i == 0)
+                    {
+                        <div class="item active">
+                            @{Html.RenderPartial("Event", item);}
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="item">
+                            @{Html.RenderPartial("Event", item);}
+                        </div>
+                    }
+                    i++;
+                }
+            }
+            else
+            {
+                <div class="item active">
+                    <h1>Leider gibt es aktuell keine neuen Termine</h1>
+                    <p>Schaue einfach später nocheinmal vorbei.</p>
+                </div>
+            }
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Sponsoren</h2>
+        <a href="http://pluralsight.com/"><img src="/Content/Images/pluralsight-fullcolor-175x39-v1.png" alt="" /></a>
+    </div>
+</div>

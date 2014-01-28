@@ -1,0 +1,67 @@
+﻿@model CommunitySite.Web.Areas.Admin.Models.EventModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles{
+    @Styles.Render("~/Content/admin")
+}
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <h2>Veranstaltung bearbeiten</h2>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.Event.Id)
+
+            <p>
+                @Html.LabelFor(m => m.Event.Title)<br />
+                @Html.TextBoxFor(m => m.Event.Title, new { @class = "form-control" })<br />
+                @Html.ValidationMessageFor(m => m.Event.Title)
+            </p>
+
+            <p>
+                @Html.LabelFor(m => m.Event.FromDate)<br />
+                @Html.TextBoxFor(m => m.Event.FromDate, new { type = "datetime", @class = "form-control" })<br />
+                @Html.ValidationMessageFor(m => m.Event.FromDate)
+            </p>
+
+            <p>
+                @Html.LabelFor(m => m.Event.ToDate)<br />
+                @Html.TextBoxFor(m => m.Event.ToDate, new { type = "datetime", @class = "form-control" })<br />
+                @Html.ValidationMessageFor(m => m.Event.ToDate)
+            </p>
+
+            <p>
+                @Html.LabelFor(m => m.Event.Teaser)<br />
+                @Html.TextAreaFor(m => m.Event.Teaser, new { @class = "form-control" })<br />
+                @Html.ValidationMessageFor(m => m.Event.Teaser)
+            </p>
+            <p>
+                @Html.LabelFor(m => m.Event.Description)<br />
+                @Html.TextAreaFor(m => m.Event.Description, new { @class = "form-control" })<br />
+                @Html.ValidationMessageFor(m => m.Event.Description)
+            </p>
+
+            <p>
+                @Html.LabelFor(m => m.Event.SpeakerIds)<br />
+                @Html.ListBoxFor(m => m.Event.SpeakerIds, Model.Speakers, new { @class = "form-control" })<br />
+                @Html.ValidationMessageFor(m => m.Event.SpeakerIds)
+            </p>
+
+            <p>
+                @Html.LabelFor(m => m.Event.LocationId)<br />
+                @Html.DropDownListFor(m => m.Event.LocationId, Model.Locations, new { @class = "form-control" })<br />
+                @Html.ValidationMessageFor(m => m.Event.LocationId)
+            </p>
+            <p>
+                <input type="reset" value="Zurücksetzen" class="btn btn-default" />
+                <input type="submit" value="Speichern" class="btn btn-primary" />
+            </p>
+
+        }
+    </div>
+</div>
