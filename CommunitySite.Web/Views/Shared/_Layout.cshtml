@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - .NET-Stammtisch Konstanz-Kreuzlingen</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @RenderSection("Styles", false)
@@ -16,8 +16,8 @@
             </div>
         </div>
     </div>
-    <div class="container" data-spy="affix" data-offset-top="100" id="nav">
-        <div class="navbar navbar-inverse">
+    <nav class="container" data-spy="affix" data-offset-top="150" id="nav" role="navigation">
+        <div class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
 
     <div class="container body-content">
         @RenderBody()

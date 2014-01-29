@@ -2,12 +2,18 @@
   padding-top: 50px;
   padding-bottom: 20px;
 }
+h1,
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #428bca;
+}
 .body-content {
   padding-left: 15px;
   padding-right: 15px;
 }
-#nav.affix {
-  position: fixed;
+.affix {
   top: 0;
   z-index: 99;
   width: 100%;
@@ -17,7 +23,10 @@
   background-color: white;
 }
 .jumbotron.home .carousel-inner .item {
-  padding: 3% 15%;
+  padding: 0;
+}
+.jumbotron.home .carousel-indicators {
+  bottom: -40px;
 }
 .jumbotron.home .carousel-indicators li {
   background-color: #ccc;
