@@ -1,0 +1,200 @@
+[
+  {
+    "Id": "fa9be753-5e2f-4cf3-9844-bf8102984dc8",
+    "FirstName": ".NET-Stammtisch",
+    "LastName": "Konstanz-Kreuzlingen",
+    "Email": "juergen@gutsch-online.de",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": false
+  },
+  {
+    "Id": "a999207e-dc5e-4d37-b3c2-b638ea9506c2",
+    "FirstName": "Jürgen",
+    "LastName": "Gutsch",
+    "Email": "juergen@gutsch-online.de",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "e7ac92c5-8411-43ab-a662-ddaa0c4eab08",
+    "FirstName": "Thorsten",
+    "LastName": "Hans",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": false
+  },
+  {
+    "Id": "16530f27-e08b-4f15-b5c0-5467203f0325",
+    "FirstName": "Golo",
+    "LastName": "Roden",
+    "Email": "webmaster@goloroden.de",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "65ccda37-01a7-4e24-bca9-b16486dbf0e7",
+    "FirstName": "Roberto",
+    "LastName": "Danti",
+    "Email": "rdanti@outlook.com",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "d0605bdb-cebf-444b-8c0e-ea049f42dcc3",
+    "FirstName": "Gregor",
+    "LastName": "Biswanger",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "0b15d9f7-d5f2-4655-bd8b-8a1b0ec5e58d",
+    "FirstName": "Daniel",
+    "LastName": "Marbach",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "7ff11922-ca1e-4d7d-9eb7-9944ae042771",
+    "FirstName": "Urs",
+    "LastName": "Enzler",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "2b7c3ee3-078c-4498-93a1-9172b77c7b5f",
+    "FirstName": "Ralf",
+    "LastName": "Westphal",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "a9fda06a-3ecf-4990-8f26-93b992e6cbb2",
+    "FirstName": "Ilker",
+    "LastName": "Cetinkaya",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "94b9b51a-d77c-40e6-981e-7596d2c096a9",
+    "FirstName": "Thomas",
+    "LastName": "Schissler",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "02c5cec1-199a-4559-8e70-2cd127f25da5",
+    "FirstName": "Thomas Claudius",
+    "LastName": "Huber",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "3c38d948-9fce-4e5e-a3f1-49100a4ff141",
+    "FirstName": "David",
+    "LastName": "Tielke",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "fc4fff57-2ab6-4c5b-ad3e-27f4a6dbb1dd",
+    "FirstName": "Peter",
+    "LastName": "Bucher",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "9f75b5c9-256a-4a47-9ea9-854e3bfe5d01",
+    "FirstName": "Constantin",
+    "LastName": "Klein",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "7ee34dab-cfee-4082-bdf0-4ed6fbf9b522",
+    "FirstName": "André",
+    "LastName": "Lämmer",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "cf59674f-ce8e-4b10-8f29-1d586c44ad57",
+    "FirstName": "Dennis",
+    "LastName": "Traub",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "D108611B-5C2C-4C90-9011-DA430D823A7F",
+    "FirstName": "Roberto",
+    "LastName": "Bez",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "165B8999-30A5-460A-A689-F6AC4DDD55C7",
+    "FirstName": "Timur",
+    "LastName": "Zanagar",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "F07ADC28-6E93-48D0-AA58-91E20F36C864",
+    "FirstName": "Holger",
+    "LastName": "Wendel",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "B7C433A2-27E3-4E7B-AA26-D788E621ADF2",
+    "FirstName": "Gordon",
+    "LastName": "Breuer",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  },
+  {
+    "Id": "D62485E6-BA30-477F-BD88-E601303F8E8A",
+    "FirstName": "Friedrich-Karl",
+    "LastName": "Koschnick",
+    "Email": "",
+    "Password": null,
+    "ImageUrl": "",
+    "UseGravatar": true
+  }
+]

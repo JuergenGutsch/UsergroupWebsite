@@ -1,0 +1,530 @@
+[
+  {
+    "Id": "32139758-9886-471a-a55a-955f743227fd",
+    "Title": "21. Treffen mit Thorsten Hans und MSBuild",
+    "FromDate": "2010-10-13T19:00:00",
+    "ToDate": "2010-10-13T22:00:00",
+    "Teaser": "Das 21. .NET-Stammtisch Treffen findet mit Thorsten Hans und dem Thema \"MSBuild\" in der Weinstube Pfohl statt.",
+    "Description": "<b>MSBuild</b> ist das Werkzeug zum Erstellen von .NET Projekten. Nach einer kurzen Einführung in die Thematik, geht es von einfachen Beispielen, über eigene MSBuild Tasks hin zu den wichtigen neuen Features von MSBuild 4.0. Thorsten Hans zeigt wie leicht und schnell man MSBuild erlernen kann und das erlernte in der Praxis einsetzen kann.\r\n\r\nZusätzlich zu dem tollen Thema gibt es eine <b>freudige Neuigkeit</b> und ein <b>Windows 7 Ultimate</b> zu gewinnen.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "c84cec9d-dde7-4108-b85e-3e98195c706f",
+    "SpeakerIds": [
+      "a09eb765-a189-4f0d-a597-4a3b1fe7865a"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "612108dc-3ab8-4d60-85a4-6b54354cdb17",
+    "Title": "22. Treffen: .NET Coding Dojo mit Ilker Cetinkaya",
+    "FromDate": "2010-11-10T19:00:00",
+    "ToDate": "2010-11-10T22:00:00",
+    "Teaser": "Beim 22. Treffen findet ein <b>.NET Coding Dojo</b> mit mit <b>Ilker Cetinkaya</b> statt",
+    "Description": "Ein <b>.NET Coding Dojo</b> ist eine lustige interaktive Lernrunde, bei der zusammen eine kleine Programmieraufgabe gelößt wird, während einer die zusammen erarbeiteten Lösungen umsetzt. Ziel ist es zusammen etwas über Programmierpraktiken erlernen und am Ende eine lauffähige Software erstellt zu haben.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "2020c264-60fe-437f-b1d6-7f7676bb395f"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "529b9895-c59f-4cfd-ac90-2c63b78e40cf",
+    "Title": "23. Treffen mit Thomas Schissler und 'Scrum'",
+    "FromDate": "2010-12-08T19:00:00",
+    "ToDate": "2010-12-08T22:00:00",
+    "Teaser": "Das 23. .NET-Stammtisch Treffen findet mit<b> Thomas Schissler</b> und dem Thema <b>Scrum</b> statt",
+    "Description": "<b>Scrum</b> erfreut sich für das Management von agilen Projekten immer größerer Beliebtheit. Doch von der Theorie zur Praxis ist trotz der oft beschworenen Einfachheit von SCRUM ein weiter Weg. Der Vortrag erläutert zunächst die Grundlagen von Scrum. Anschließend werden Best Practices aus allen Projektphasen auf Basis des Team Foundation Servers 2010 erläutert. Dabei werden konkrete und praktische Ratschläge zu Bereichen wie Anforderungsmanagement, Priorisierung, Teamorganisation und mehr gegeben. Der Vortrag beantwortet auch Fragen wie \"Lohnt sich der Aufwand für ein Sprintplanungs-Meeting mit dem gesamten Team?\", \"Wie organisiere ich mein Team und welche Herausforderungen entstehen dabei?\" oder \"Welche Eigenschaften muss ein Product Owner mitbringen um diese Rolle erfolgreich auszufüllen?\". Insgesamt also ein Vortrag der vor allem Vorgehensweisen und Methoden erläutert, aber auch deren praktische Umsetzung aufzeigt..\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "c84cec9d-dde7-4108-b85e-3e98195c706f",
+    "SpeakerIds": [
+      "1de84e77-4833-46b9-89f5-3034aee89581"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "66598452-bc94-415d-9b54-b049d382b807",
+    "Title": "24. Treffen mit Jürgen Gutsch und '[bitte wählen]' ;-)",
+    "FromDate": "2011-01-12T19:00:00",
+    "ToDate": "2011-01-12T22:00:00",
+    "Teaser": "Das 24. .NET-Stammtisch Treffen findet mit<b> Jürgen Gutsch</b> und dem Thema <b>[bitte wählen]</b> statt ;-)",
+    "Description": "Da das Thema noch nicht feststeht, könnt Ihr euch das Thema auswählen. Dazu habe ich eine kleine Doodle-Umfrage gestartet.\r\n\r\nBitte folge diesem Link, um an der Umfrage teilzunehmen: \r\n<a href=\"http://doodle.com/hc4y8vv82c9pd53q\">http://doodle.com/hc4y8vv82c9pd53q</a> ",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "5ae45813-20d0-40e2-8059-e51ee9b3d856",
+    "Title": "25. Treffen mit Thomas Claudius Huber und 'Silverlight Magic: Hardwarenahe Effekte mit Pixelshadern'",
+    "FromDate": "2011-02-09T19:00:00",
+    "ToDate": "2011-02-09T22:00:00",
+    "Teaser": "Das 25. .NET-Stammtisch Treffen findet mit<b> Thomas Claudius Huber</b> und dem Thema <b>Silverlight Magic: Hardwarenahe Effekte mit Pixelshadern</b> statt",
+    "Description": "In der WPF 3.5 SP1 wurden die sog. Bitmap-Effekte durch Pixelshader abgelöst. Auch in Silverlight lassen sich mit Pixelshadern eigene Effekte erstellen, um die Darstellung von UIElemente beliebig anzupassen. In diesem Vortrag zeigt Thomas nach einem Blick auf die Geschichte der Effekte in WPF/Silverlight die hardwarenahe Programmierung von Pixelshadern in der High Level Shader Language (HLSL). Die erstellten Effekte werden in Silverlight genutzt um beeindruckende Effekte zu erstellen.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "c84cec9d-dde7-4108-b85e-3e98195c706f",
+    "SpeakerIds": [
+      "e0519088-bacd-4e8d-bc1c-b3e7be0650f1"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "aaae806d-6aa6-47bd-90af-77c90ae7720d",
+    "Title": "26. Treffen mit Golo Roden, David Thielke und 'Code Qualität'",
+    "FromDate": "2011-03-09T19:00:00",
+    "ToDate": "2011-03-09T22:00:00",
+    "Teaser": "Das 26. .NET-Stammtisch Treffen findet mit<b> Golo Roden, David Thielke </b> und dem Thema <b>Code Qualität</b> statt",
+    "Description": "Code zu schreiben, ist keine Kunst – doch qualitativ hochwertigen Code zu schreiben, durchaus. Zum Glück sind Entwickler dabei heutzutage nicht mehr auf sich allein gestellt, sondern werden von Visual Studio in vielerlei Hinsicht unterstützt. David Tielke und Golo Roden zeigen in dieser Session, welche Vielzahl an Möglichkeiten es in Visual Studio 2010 gibt, die Qualität von Code zu messen, zu analysieren und zu verbessern, und was sich gegenüber den Vorgängerversionen 2005 und 2008 geändert hat.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "9036a574-0e35-4efc-9cac-be22710e16c3",
+      "dea7d24b-d19b-4101-a8db-bca65b312fa6"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "932fabba-62f1-409c-9ebb-1487bbbc5e4a",
+    "Title": "28. Treffen mit Jürgen Gutsch, Peter Bucher und einem .NET Coding Dojo",
+    "FromDate": "2011-05-11T19:00:00",
+    "ToDate": "2011-05-11T22:00:00",
+    "Teaser": "Das 28. Treffen findet mit Jürgen Gutsch, Peter Bucher  und eine .NET-Coding-Dojo statt",
+    "Description": "Ein <b>.NET Coding Dojo</b> ist eine lustige interaktive Lernrunde, bei der zusammen eine kleine Programmieraufgabe gelößt wird, während einer die zusammen erarbeiteten Lösungen umsetzt. Ziel ist es zusammen etwas über Programmierpraktiken erlernen und am Ende eine lauffähige Software erstellt zu haben.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374",
+      "a59311cc-8c11-4cea-9bc2-9d737ee42308"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "89c702ff-5d2d-4dff-b72e-3bb0d3829365",
+    "Title": "29. Treffen mit Jürgen Gutsch und TDD",
+    "FromDate": "2011-06-08T19:00:00",
+    "ToDate": "2011-06-08T22:00:00",
+    "Teaser": "Das 29. Treffen findet mit Jürgen Gutsch  und dem Thema Test Driven Developement statt",
+    "Description": "Es ist nicht nur wichtig Software mit Unit-Tests automatisiert zu testen, sondern dem Kunden/Vorgesetzten zu bestätigen: \"Ich habe Deine Anforderungen verstanden und diese Testergebnisse sagen Dir, dass alle deine Anforderungen erfüllt sind. Mein Job ist vorerst erledigt\" \r\n\r\nAn diesem treffen zeigt Jürgen die Grundlagen von Unit-Tests und Testgetriebener Entwicklung anhand von NUnit und MSTest. Nachdem eine kleine Anwendung per TDD entwickelt worden ist, zeigt Jürgen wofür Unit-Tests noch alles zu gebrauchen sind. Ein Ausflug in die Grundlagen von BDD ist ebenfalls mit drin.\r\n\r\nSoltle noch Zeit übrig sein, geht Jürgen kurz auf weitere exotische frameworks, wie MSpec ein.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "c84cec9d-dde7-4108-b85e-3e98195c706f",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "37baba10-32d0-4ad2-9f8a-e17e19ed9610",
+    "Title": "30. Treffen mit Constantin Klein und \"SQL Server für Entwickler\"",
+    "FromDate": "2011-07-13T19:00:00",
+    "ToDate": "2011-07-13T22:00:00",
+    "Teaser": "Unter dem Codenamen \"Denali\" steht das nächste Major Release des Microsoft SQL Servers bereits in den Startlöchern. Und dennoch haben es viele Neuerungen der Vorgängerversionen 2005 und 2008 (R2) noch nicht in den Arbeitsalltag der Entwickler geschafft. Wenn Ihre Software auf den MS SQL Server als Datenbankplattform setzt und Sie die Anforderungen Ihrer Software mit den Fähigkeiten des MS SQL Server optimal unterstützen wollen, dann sind Sie hier richtig.",
+    "Description": "Neben einigen ausgewählten Tipps und Tricks werden verschiedene (Sprach-)Neuerungen des SQL Server 2005 + 2008 vorgestellt und ein Ausblick auf die mit \"Denali\" zu erwartenden Verbesserungen gegeben. Ein besonderer Schwerpunkt wird dabei auf den Themen Filestream und der Verarbeitung von Geodaten liegen..\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "6ed00721-f4d7-4b95-bc02-18a01b29e116"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "160d6d82-fe78-41d0-b212-e0806cf5df0a",
+    "Title": "31. Treffen mit Ralf Westphal und \"Slice me nice – Produktiv, schnell, zufrieden\"",
+    "FromDate": "2011-08-10T19:00:00",
+    "ToDate": "2011-08-10T22:00:00",
+    "Teaser": "Anforderungen müssen einfach nur weggeschafft werden? Nein. Wenn Sie Anforderungen einfach nur irgendwie wegschaffen, dann schaffen Sie nicht effizient. Da hilft auch keine Priorisierung im Backlog. Für maximale Produktivität und auch für Ihre Zufriedenheit als Entwickler am Ende jedes einzelnen Projekttages ist mehr nötig.",
+    "Description": "Der Vortrag erklärt, wie Sie mit Grundbegriffen der Theory of Constraints (TOC) wie auch der Softwarearchitektur die Implementierung „in Fluss bringen“. Bereiten Sie Ihre Entwicklung im Team durch rigoroses Zerschneiden von Anforderungen in dünne Scheiben und  so vor, dass Sie Ihr Team optimal nutzen.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "c84cec9d-dde7-4108-b85e-3e98195c706f",
+    "SpeakerIds": [
+      "64329cd2-a317-4047-a95d-d10920c127e2"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "9ef6a135-90a2-479a-b9a6-3a75c5db07c3",
+    "Title": "32. Treffen mit Golo Roden und Agil 2.0 – das Agile Development Framework (ADF)",
+    "FromDate": "2011-09-14T19:00:00",
+    "ToDate": "2011-09-14T22:00:00",
+    "Teaser": "Scrum, XP & Co – bestehende agile Methoden bedienen jeweils verschiedene Zielgruppen und Aspekte der Softwareentwicklung, doch eine einzelne agile Methode genügt in der Praxis häufig nicht. Was also fehlt, ist ein umfassendes Rahmenwerk, das die erfolgreichen Elemente der bestehenden agilen Methoden vereint, das jedoch – wenn erforderlich – auch eigene Pfade einschlägt.",
+    "Description": "Das Agile Development Framework (ADF) tritt an, dieses Problem zu lösen, indem es Individuen, Teams und Unternehmen während des gesamten Entwicklungsprozesses von qualitativ hochwertiger Software unterstützt, unter Berücksichtigung der einzelnen Rollen und deren jeweiligen Interessen.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "9036a574-0e35-4efc-9cac-be22710e16c3"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "445852e0-e54d-4293-a59b-1b8b3062bcc5",
+    "Title": "33. Treffen mit Roberto Danti und NHibernate",
+    "FromDate": "2011-10-12T19:00:00",
+    "ToDate": "2011-10-12T22:00:00",
+    "Teaser": "Roberto stellt uns den schnelle und beliebten OR-Mapper 'NHibernate' vor und die Konfiguration mit Fluent.NHibernate.",
+    "Description": "(Vorläufige Beschreibung: Roberto stellt uns den schnelle und beliebten OR-Mapper 'NHibernate' vor und die Konfiguration mit Fluent.NHibernate).\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "cb1584f1-9ef9-4189-b2dd-3590b38c3dc6"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "1f99ac32-a888-4d21-9ead-96090309e3c1",
+    "Title": "34. Treffen mit Jürgen Gutsch und Vier Augen - Von Codereview und Pair Programming",
+    "FromDate": "2011-11-11T19:00:00",
+    "ToDate": "2011-11-11T22:00:00",
+    "Teaser": "Ein Themenwunssch aus dem .NET-Stammtisch: \r\nCodereview - Warum, wer, weswegen? Wie oft, wann ist genug?",
+    "Description": "Vier Augen sehen mehr als zwei, soviel steht fest, aber wie sollte ein Codereview konkret aussehen? Jürgen zeigt in diesem Vortrag die Vorteile des Codereviews und wie man Codereviews angehen sollte. Im zweiten Teil zeigt Jürgen als weitere Steigerung: das Pair Programming. Anhand einer Demonstration wie man in Paaren entwickelt und wie effektiv man dabei sein kann.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "0ea7da16-f59e-45aa-8a45-9b1d224b7aaf",
+    "Title": "35. Treffen mit André Lämmer und dem Thema .NET Micro Framework",
+    "FromDate": "2011-12-14T19:00:00",
+    "ToDate": "2011-12-14T22:00:00",
+    "Teaser": "Im sommer kam das Gadgeteer Starter Pack \"FEZ Spider Starter Kit\" heraus, dass man mit dem .NET Mircro Framework anprogrammieren kann",
+    "Description": "André Lämmer zeigt uns die Komponenten des Starter Pack und erklärt was man damit machen und wie man es mit C# anprogrammieren kann.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "094dd76e-a0bf-4957-b18b-fe8db3e0d534"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "124d71f8-3cdf-4493-a3a3-90e414fdff8c",
+    "Title": "36. Treffen mit Jürgen Gutsch und ReSharper",
+    "FromDate": "2012-01-11T19:00:00",
+    "ToDate": "2012-01-11T22:00:00",
+    "Teaser": "Bei vielen .NET-Entwicklern ist der ReSharper zu einem festen Bestandteil im Visual Studio geworden. Das Tool, das ursprünglich als Refactoring-Werkzeug konzipiert wurde, kann heute sehr viel mehr und unterstützt die Produktivität der .NET-Entwickler in vielerlei Hinsicht",
+    "Description": "Jürgen Gutsch präsentiert in dieser Session die Benutzung und den Funktionsumfang des ReSharper 6.1 und zeigt einige Tipps und Tricks die jeder Nutzer wissen sollte.\r\n\r\nZu dieser Session stellt Jetbrains übrigens eine Lizenz des ReSharpers zur Verlosung zur Verfügung. Wer in dem Vortrag gut aufpasst, kann am Ende einen ReSharper mit nach Hause nehmen.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "2b731156-25c0-4724-aefb-648dfc51761b",
+    "Title": "37. Treffen mit Jürgen gutsch und NuGet",
+    "FromDate": "2012-02-08T19:00:00",
+    "ToDate": "2012-02-08T22:00:00",
+    "Teaser": "Jürgen Gutsch zeigt die Vorteile und die Verwendung von NuGet, wie man eigene NuGet-Pakete erstellen kann und wie man NuGet im eigenen Unternehmen implementieren kann.",
+    "Description": "Anschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a4194576-5640-4e09-bbb5-c8afd9da3bf7",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "849d5081-cb47-4e41-b996-fdb9432a8250",
+    "Title": "38. Treffen mit Golo Roden und Node.js",
+    "FromDate": "2012-03-14T19:00:00",
+    "ToDate": "2012-03-14T22:00:00",
+    "Teaser": "Golo zeigt uns in einer Einführung die Funktionsweise und die Entwicklung von und mit Node.js",
+    "Description": "Anschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "9036a574-0e35-4efc-9cac-be22710e16c3"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "e8ba129b-c640-40af-b853-84b0f08c6b21",
+    "Title": "39. Treffen mit Gregor Biswanger und Windows 8 und WinRT - Erschaffe eine neue Welt",
+    "FromDate": "2012-04-11T19:00:00",
+    "ToDate": "2012-04-11T22:00:00",
+    "Teaser": "Mit Windows 8 steht im Gegensatz zu den bisherigen Windows-Versionen, die Bedienung mittels Touchscreen im Vordergrund. Dazu wurde eine neue Oberfläche (MetroUI) als Startscreen integriert, die sich an der Gestaltung von Windows Phone 7 orientiert. Diese läuft unter einer neuen Laufzeitumgebung namens Windows Runtime (WinRT).\r\nDieser Vortrag gibt einen Überblick über die Neuerungen von Windows 8 und zeigt was alles für den Start für C#-Entwickler wichtig ist.",
+    "Description": "<iframe width=\"420\" height=\"315\" src=\"http://www.youtube.com/embed/81xOe0_0_DA\" frameborder=\"0\" allowfullscreen></iframe>\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "07b783d5-acac-419f-99c1-9067783c85b0"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "5ac537c2-1125-4cea-a445-8af76c5d5831",
+    "Title": "40. Treffen mit Roberto Danto und Design Patterns",
+    "FromDate": "2012-05-09T19:00:00",
+    "ToDate": "2012-05-09T22:00:00",
+    "Teaser": "Wundermittel oder Überflüssig? Diese Frage versuchen wir beim nächsten Stammtisch am 09 Mai nachzugehen.\r\nNach eine Einführung und Vorstellung der gängige Entwurf Mustern, werden wir in eine lockere Diskussionsrunde über Sinn und Unsinn von Entwurf Muster diskutieren.",
+    "Description": "Anschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "cb1584f1-9ef9-4189-b2dd-3590b38c3dc6"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "c1fed7ce-6a0b-4efd-b239-9777a935ed48",
+    "Title": "41. Treffen mit Jürgen Gutsch und Robocode für .NET",
+    "FromDate": "2012-06-13T19:00:00",
+    "ToDate": "2012-06-13T22:00:00",
+    "Teaser": "Robocode ist eigentlich ein kleines Spiel um Java zu lernen. Man programmiert sich kleine lustige Panzer (Robots) die auf bestimmte Situationen reagieren müssen und andere Robots abschießen müssen.",
+    "Description": "Seit einigen Monaten ist es nun auch mit .NET möglich, Robots zu bauen und zur Verfügung zu stellen.\r\n\r\nIn diesem Treffen möchte ich kurz zeigen, wie man Robocode auf dem eigenen Rechner zum Laufen bringt.\r\nAnschließend zeige ich die Entwicklung eigener Robots.\r\n\r\nWer möchte, kann seinen eigenen Laptop mitbringen und parallel mitarbeiten. So können wir am Ende unsere Robots gegeneinander spielen lassen.\r\n\r\nAm Mittwoch gibt es auch wieder etwas zu gewinnen. Dank Pluralsight dürfen wir ein Monatsabonnement für den Zugang zu den \"hardcore developer trainings\" verlosen :-)\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "14123a12-a268-4d1c-b9f0-a2bcc82ed41d",
+    "Title": "42. Treffen mit Jürgen Gutsch und einem Coding Dojo",
+    "FromDate": "2012-07-11T19:00:00",
+    "ToDate": "2012-07-11T22:00:00",
+    "Teaser": "An diesem Treffen werden wir wieder ein Coding Dojo veranstalten und hoffen auf eine rege Teilnahme. ",
+    "Description": "Da dieses und das nächste Mal die Räume in Kreuzlingen besetzt sind, treffen wir uns mal wieder in Konstanz, im Restaurant Seerhein.\r\n\r\nAm Mittwoch gibt es auch wieder etwas zu gewinnen. Dank Pluralsight dürfen wir ein Monatsabonnement für den Zugang zu den \"hardcore developer trainings\" verlosen :-)\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a1a601f6-f874-40d8-a82e-917eaa3e9a08",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "bf370bab-0e50-4467-92ec-05305f9ea8a2",
+    "Title": "43. Treffen mit Gregor Biswanger und Silverlight 5 – Silverlight aktiviert Abwehrkräfte",
+    "FromDate": "2012-08-08T19:00:00",
+    "ToDate": "2012-08-08T22:00:00",
+    "Teaser": "Gregor Biswanger stellt uns bei diesem Treffen Silverlight 5 vor.",
+    "Description": "Während Spekulationen der Medienwelt den Tod von Silverlight hervorrufen, ist nun endlich die neue Version von Silverlight veröffentlicht worden. Diese zeigt sich allerdings, alles andere als Lebensmüde. Mit der neuen Version sind nun lang erwartete XAML-Features hinzugekommen. Der Vortrag demonstriert die Highlights von Silverlight 5 und zeigt zudem die besonderen Abwehrkräfte gegenüber HTML 5.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "a1a601f6-f874-40d8-a82e-917eaa3e9a08",
+    "SpeakerIds": [
+      "07b783d5-acac-419f-99c1-9067783c85b0"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "561c061a-e1e2-4e00-944a-613005b89ccd",
+    "Title": "44. Treffen mit Jürgen und Roberto; Möglichkeiten mit MVC Web API und der Cloud",
+    "FromDate": "2012-09-12T19:00:00",
+    "ToDate": "2012-09-12T22:00:00",
+    "Teaser": "An diesem Treffen zeigt Jürgen was mit ASP.NET MVC Web API möglich ist und wie einfach und schnell, flexible und testbare Webdienste umgesetzt sind. Anschließend Zeigt Roberto, wie dieser Dienst in der Cloud (Azure oder AppHarbour) eingerichtet werden kann.",
+    "Description": "Anschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374",
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "81297dd3-f028-4140-a9ae-8368c375dd55",
+    "Title": "45. Treffen mit Urs Enzler und Daniel Marbach und dem Thema Appccelerate your .Net Application development",
+    "FromDate": "2012-11-14T19:00:00",
+    "ToDate": "2012-11-14T22:00:00",
+    "Teaser": "Jeden Tag das selbe Spiel. Wir schreiben den gleichen Infrastrukturcode immer und immer wieder. Dabei fühlen wir uns eigentlich der Codeduplizierung schuldig und schwören uns es beim nächsten Mal nicht mehr so zu machen. Täglich grüsst das Murmeltier. Doch vorbei sind diese Zeiten! ",
+    "Description": "Mit <b>Appccelerate</b> beschleunigen wir deine Applikationsentwicklung bis zum Überschall. Durch den Einsatz von Startup und Shutdown Komponenten, lose gekoppelten Events und Statemachines bleibt dein Code wart- und testbar und scheut sich nicht vor Erweiterungen. Tauche mit Urs Enzler und Daniel Marbach in die Welt von Appccelerate und entdecke dass auch Fahrstühle Gefühle besitzen können! \r\n<a href=\"www.appccelerate.com\">www.appccelerate.com </a>\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "ca277463-b8fc-4a55-bf96-bb64d9beca84",
+      "9e9ff995-1352-4066-bcf4-c544300edc46"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "58ccebd8-0b56-4481-8a4f-11c24538341a",
+    "Title": "46. Treffen mit Golo Roden und Javascript für C# Entwickler",
+    "FromDate": "2012-12-12T19:00:00",
+    "ToDate": "2012-12-12T22:00:00",
+    "Teaser": "Golo Roden gibt an diesem Treffen einen Javascript Crashkurs für C# Entwickler",
+    "Description": "Seit Monaten bereiten Sie sich auf Windows 8 und WinRT vor. Nun hat gerade Ihr wichtigster Kunde angerufen, um Ihnen den Auftrag zur Entwicklung einer entsprechenden Anwendung zu erteilen. Ihr anfänglicher Stolz ist jedoch schnell Ernüchterung gewichen, als die Anforderung genannt wurde, dass die Anwendung in JavaScript geschrieben werden müsse ... Diese Sprache haben Sie bislang nämlich vollständig außer Acht gelassen. Was Sie jetzt brauchen, ist ein JavaScript-Crashkurs für C#-Entwickler, der Ihnen auf die Sprünge hilft. Golo Roden stellt Ihnen in zwei Stunden (fast) alles vor, was Sie über JavaScript wissen müssen, und zeigt - ganz nebenbei - dass JavaScript-Entwicklung nicht bedeutet, steinzeitlich mit vi auf der Konsole arbeiten zu müssen.\r\n\r\nLeider ausgefallen und durch eine FAQ-Session mit Jürgen ersetzt\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "ca277463-b8fc-4a55-bf96-bb64d9beca84",
+      "9e9ff995-1352-4066-bcf4-c544300edc46"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "a4256319-3753-47af-9298-88eb5ed12fe4",
+    "Title": "47. Treffen mit Roberto Danti und Windows Azure",
+    "FromDate": "2013-01-09T19:00:00",
+    "ToDate": "2013-01-09T22:00:00",
+    "Teaser": "Roberto stellt Windows Azure und die Cloud vor. Es werden Dienste und Möglichkeiten der Cloud präsentiert und mit Beispiele und Demos, werden Architektur und Anforderungen an Software für die Cloud vorgestellt.",
+    "Description": "Anschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "cb1584f1-9ef9-4189-b2dd-3590b38c3dc6"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "771db8d0-be6d-4c1e-a5ab-a8c068661e55",
+    "Title": "48. Treffen mit Jürgen Gutsch und Entwicklung eine mobile-optimierten Community Webiste",
+    "FromDate": "2013-02-13T19:00:00",
+    "ToDate": "2013-02-13T22:00:00",
+    "Teaser": "Jürgen stellt bei diesem Treffen die neue Website des .NET-Stammtisch vor und zeigt deren Entwicklung",
+    "Description": "In diesem Code-Only-Vortrag wird gezeigt, wie man mit Hilfe von HTML5, CSS3 auf ASP.NET MVC4 und etwas Javascript (JQuery und knockout.js) eine Web Application schreiben kann die auch mobile Endgeräte optimiert ist. \r\n\r\nDer Vortrag und die gezeigten Beispiele basieren aus dem aktuellen Projekt des .NET-Stammtisch Konstanz-Kreuzlingen, welches zum Ziel hat die Usergroup Termine und News einfach und schnell an die eigenen Mitglieder zu verteilen.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "e9616633-ba26-4e46-bfb3-86d266f4b374"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "37c51334-61c9-43f9-b7c7-91c89e6fd852",
+    "Title": "49. Treffen mit Dennis Traub und Einführung in CQRS",
+    "FromDate": "2013-03-20T19:00:00",
+    "ToDate": "2013-03-20T22:00:00",
+    "Teaser": "Mit der etwas sperrig benannten Command-Query Responsibility Segregation, kurz CQRS, werden einerseits eine Reihe von Prinzipien der modernen Softwareentwicklung (SOLID, Separation of Concerns, etc.) auf Architekturebene angewandt. Andererseits ist es eine konsequente Weiterentwicklung der Ideen hinter Domain-Driven Design, insbesondere in Hinblick auf verteilte Anwendungen und sogenannte \"Occasionally Connected Systems\", wie sie z.B. häufig im mobilen Umfeld zur Anwendung kommen.",
+    "Description": "Gleichzeitig wird CQRS fälschlicherweise oft als eine überladene, theoretische und sehr komplizierte Sammlung von Mustern und Technologien wahrgenommen. In Wirklichkeit ist CQRS sehr einfach.\r\n\r\nNach einer kurzen Wiederholung der wichtigsten Aspekte des Domain-Driven Design (DDD) werden in diesem Vortrag die Grundzüge einer CQRS-Anwendung aufgezeigt, und wie man die zu Grunde liegenden Ideen ganz einfach auch in eigenen Projekten einsetzen kann.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "a78ce0b2-286a-469f-9dd1-66b86273040b"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "D78EBCAD-EABD-4E10-9E31-67C0526F7736",
+    "Title": "50. Treffen mit Roberto Bez und Single Page Applications",
+    "FromDate": "2013-03-20T19:00:00",
+    "ToDate": "2013-03-20T22:00:00",
+    "Teaser": "Im Rahmen der User Group Tour Developer Week wird uns Kerstin Hartmann von der NMG und Roberto Bez besuchen. Roberto wird dabei einen Vortrag über Single Page Application (kurz: SPA) halten. Kerstin wird sowohl ein kleines Gewinnspiel als auch einige dotnetpro Hefte mitbringen.",
+    "Description": "Eine Single Page Application (kurz: SPA) ist eine Web-Anwendung bestehend aus nur einer Seite, bei welcher im Normalfall das gesamte HTML am Anfang  geladen wird und anschließend per JavaScript gesteuert wird. Auch in ASP.NET bzw. in den Web Tools ab Version 2012.2 gibt es eine Projektvorlage um genau eine solche Art von Webseiten umzusetzen - das Ganze mit Hilfe von jQuery und Knockout.js, einem einfachen aber dennoch mächtigen, clientseitigen MVVM-Framework. Durch das deklarative data-binding Konzept von Knockout und der in ASP.NET MVC 4 eingeführten WebAPI, bietet die Projektvorlage eine solide Startbasis für alle Einsteiger. Die damit verbundene Vorgehensweise ist natürlich kein Gesetz, sondern viel mehr eine Richtlinie an welche man sich halten kann - sofern sie für jemanden Sinn macht. In diesem Vortrag werden neben den Vor- und Nachteilen auch das Warum und Wieso von SPA's praxisnah erklärt.<br />&nbsp;<br /><b>Roberto Bez</b> ist als Projektleiter bei der Firma <a href='http://www.simedia.com/'>SiMedia GmbH</a> tätig. Er beschäftigt sich seit mehreren Jahren mit Themen rund um das .NET Framework. Für Roberto bedeutet das Entwickeln nicht nur Arbeit, sondern auch Freude, Motivation und täglich neue, aufregende Herausforderungen. Besonders gerne setzt er sich mit neuen Webtechnologien sowie Datenbanken aller Art auseinander und versucht diese in die tägliche Anwendungsentwicklung mit einzubringen. Seinen Blog finden Sie unter <a href='http://devangelist.de/'>devangelist</a>.",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "a78ce0b2-286a-469f-9dd1-66b86273040b"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "2226c5d7-ca4e-4ca4-a248-356b714c7c89",
+    "Title": "51. Treffen mit Constantin Klein und SQL Server 2012 - News für Datenbankentwickler",
+    "FromDate": "2013-05-08T19:00:00",
+    "ToDate": "2013-05-08T22:00:00",
+    "Teaser": "Constantin Klein, aka. Kostja, zeigt bei diesem Treffen SQL Server 2012 - News für Datenbankentwickler.",
+    "Description": "Seit dem Release des SQL Server 2012 steht die nächste Major Version des Microsoft Datenbankservers zur Verfügung. Doch was sind die wichtigsten Neuerungen? Wo ergeben sich neue Lösungsszenarien und was ist insbesondere für Entwickler von Interesse? Diese Session soll einen kompakten Überblick über viele Neuerungen geben und dabei die Highlights für Entwickler besonders hervorheben.\r\n\r\nAnschließend wird wie immer beim gemütlichen Bierchen weiter diskutiiert :-)",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "6ed00721-f4d7-4b95-bc02-18a01b29e116"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "91F21D88-1E6D-430A-AA2B-EB1E0B067DE0",
+    "Title": "52. Treffen mit Timur Zanagar und Mobile Entwicklung unter Mono mit Xamarin",
+    "FromDate": "2013-06-09T19:00:00",
+    "ToDate": "2013-06-09T22:00:00",
+    "Teaser": "Mit der Entstehung des Mono Projekts im Jahre 2004 wurde der Weg für die heutige Firma Xamarin und im Februar 2013 herausgebrachten Xamarin 2.0 Produktreihe geebnet. \r\n\r\nIn dieser Session soll aufgezeigt werden, welche Möglichkeiten die Programmiersprache C# für die Entwicklung hat und warum auch im mobilen Segment sehr stark und einzigartig ist. Auch wird auf die Entstehung dieser eingegangen. ",
+    "Description": "Diese Basis, eine Programmiersprache, auf iOS, Android und Windows Phone verwenden zu können, bietet den Entwicklern weitaus bessere Möglichkeiten für die mobile Entwicklung, die aber dennoch ein natives Resultat hervorbringen. \r\n\r\nDie Möglichkeiten wird Timur gerne in dieser Session vorführen und somit aufzeigen, dass die mobile Entwicklung mit Hilfe von C# auf einer ganz anderen Ebene ausgeführt werden kann.",
+    "LocationId": "4B4ED4D8-B1F1-4870-BB40-4C8DEF6F4426",
+    "SpeakerIds": [
+      "165B8999-30A5-460A-A689-F6AC4DDD55C7"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "A4A86383-6377-4FCE-8763-E1FA05023EB7",
+    "Title": "53. Treffen mit Roberto Danti und AOP",
+    "FromDate": "2013-07-10T19:00:00",
+    "ToDate": "2013-07-10T22:00:00",
+    "Teaser": "Roberto geht mit der Frage um, ob Aspekt orientiertes Programmieren ein neues Paradigma ist oder eine Ergänzung zur Objektorientierte Techniken ist.",
+    "Description": "Mit einigen Beispielen, werden die Möglichkeiten von AOP gezeigt und es wird <b>Fody</b> vorgestellt, einen open-source Framework mit dem Aspekt orientierte Verfahren umgesetzt werden können. \r\n\r\nRoberto ist Senior Software Entwickler im Bereich .NET \r\nSeit 1999 entwickelt Roberto, BI-Lösungen mit VB6, Excel VBA und Applix TM1. Im Frühling 2006 hat Roberto den Sprung in die .NET-Welt gewagt und arbeite erfolgreich an die Entwicklung von innovative .NET-Lösungen. Momentan liegt sein Interesse an ASP.NET MVC mit Windows Azure und WPF. \r\n\r\nSeit  2009 ist Roberto UG-Mitglied des .NET-Stammtisch Konstanz-Kreuzlingen (http://dotnetkk.de) wo auch als Referent tätig sein darf. Robertos Blog: http://robdanti.wordpress.com",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+      "65ccda37-01a7-4e24-bca9-b16486dbf0e7"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "973F9CE3-75CF-4D15-8D4D-62BAA0634B8C",
+    "Title": "54. Treffen: C.S.I. - Dem Windows Phone auf der Spur",
+    "FromDate": "2013-08-14T19:00:00",
+    "ToDate": "2013-08-14T22:00:00",
+    "Teaser": "C.S.I.: WP – Dem Windows Phone auf der Spur ist eine Roadshow aus und für die .NET-Community rund um die neueste Version von Microsofts Smartphone-Plattform \"Windows Phone 8\".",
+    "Description": "Die Roadshow präsentiert in Form von Vorträgen die wichtigsten und interessantesten Neuerungen der Windows Phone 8 Plattform - zum einen eine Demonstration der Funktion in Aktion (kurzes Demo-Video vor jedem Themenabschnitt), zum anderen eine Beschreibung und anschließende Code-Beispiele durch die Speaker. Im Anschluss gibt es eine offene Frage- und Diskussionsrunde zwischen den Windows Phone-Experten und den Teilnehmern. Geplant ist ebenfalls, verfügbare Devices für die Teilnehmer auszustellen zum Ausprobieren vor-Ort (Geräteverfügbarkeit vorausgesetzt).",
+    "LocationId": "4B4ED4D8-B1F1-4870-BB40-4C8DEF6F4426",
+    "SpeakerIds": [
+      "65ccda37-01a7-4e24-bca9-b16486dbf0e7"
+    ],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "244FFCB0-2497-4BCD-BD28-478B2B8C66BC",
+    "Title": "55. Treffen mit 5 mal 20 Minuten Vorträgen",
+    "FromDate": "2013-09-11T19:00:00",
+    "ToDate": "2013-09-11T22:00:00",
+    "Teaser": "Bei diesem Treffen werden 5 Mitglieder der Usergroup je einen 20 Minütigen Vortrag über ein .NET-relevantes Thema halten.",
+    "Description": "Bis jetzt haben sich zwei Mitglieder für je ein Thema angemeldet:<ul>
+<li>Marc Hochleutner über den SharePoint</li> 
+<li>Roberto Danti über neues im ASP.NET MVC 4</li> 
+<li></li> 
+</ul>
+<p>Weitere Vorschläge sind sehr willkommen und können in der Facebook-Gruppe, der XING-Gruppe oder direkt bei Jürgen angemeldet werden.</p>
+<p>Für dieses Treffen haben wir uns von der .NET-Usergroup in Bern inspirieren lassen, die diese Art der Veranstaltung bereits umgesetzt haben.</p>",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "173CFF35-12F5-4FE2-ACEA-D9A31EF73C6A",
+    "Title": "Agile Bodensee Konferenz 2013",
+    "FromDate": "2013-09-25T09:00:00",
+    "ToDate": "2013-09-26T18:00:00",
+    "Teaser": "Am Donnerstag, den 26. September 2013, werden sich IT-Spezialisten aus Deutschland, Österreich und der Schweiz zur größten agile Konferenz der IT-Szene im Bodenseeraum, der Agile Bodensee, im Steigenberger Inselhotel in Konstanz treffen.",
+    "Description": "Unter dem Motto “Starting Agile!” zeigten international sowie lokal vorausdenkende IT-Fachleute, wie die Zusammenarbeit in IT-Projekten innovativ und konkurrenzfähig wird. http://www.agile-bodensee.com/",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "173CFF35-12F5-4FE2-ACEA-D9A31EF73C6B",
+    "Title": "56. Treffen: Tag der Entscheidung",
+    "FromDate": "2013-11-25T19:00:00",
+    "ToDate": "2013-11-26T22:00:00",
+    "Teaser": "Zu eine Art Mitgliederversammlung möchten wir alle Interessierten einladen über den Fortbestand des .NET-Stammtisch Konstanz-Kreuzlingen zu beraten.",
+    "Description": "In der letzten Zeit, bzw. in den letzten zwei Jahren, hat sich der .NET-Stammtisch mit sehr wenigen Interessierten getroffen und ist auch zwei oder dreimal ganz ausgefallen. Das ist für die Teilnehmer, die Sprecher und auch für das Team nicht ganz erfreulich. Die Gründe sind klar und sind größtenteils im Team zu finden. Mögliche Lösungen möchten wir mit allen interessierten Teilnehmern diskutieren.
+
+Themen:
+<ul><li>Wir möchten von allen Mitgliedern und Teilnehmern wissen, ob weiterhin Interesse an einer .NET-Usergroup in Konstanz und Kreuzlingen besteht.</li><li>Wir möchten von allen wissen, wie wir alle (auch die Mitglieder und Teilnehmer) das Angebot verbessern können.</li><li>Wir möchten vorstellen wie wir uns in Zukunft das Team vorstellen und wie es optimal funktionieren kann.</li><li>Sollte genug Interesse da sein, möchten wir wissen, welche Themen Interessant sind und welche Vorträge wir in den kommenden Monaten organisieren sollten.</li></ul>
+Wir hoffen natürlich auf viel Interesse und ein Zahlreiches Erscheinen und hoffen, dass es sich lohnt den .NET-Stammtisch weiter am leben zu halten.
+Das Stammtisch-Team",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "557B6AEF-3E96-45F9-8EC6-57E03FB1031F",
+    "Title": "Hauptversammlung",
+    "FromDate": "2014-02-12T18:00:00",
+    "ToDate": "2014-02-12T19:00:00",
+    "Teaser": "Am Mittwoch den 12.02.2014 laden wir alle MItglieder und Interessierte zur Hauptversammlung ein",
+    "Description": "Tagesordnung:
+<ul><li>Jahresbericht (Stefan)</li>
+<li>Kassenbericht (Tilo)</li>
+<li>Wahl des Vorstandes</li>
+<li>Weitere Punkte (bitte bis zum 05.02.2014 an diese Adresse einreichen)</li></ul>",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "CC933C30-3064-4B74-AFD2-C15ED0D0B8DA",
+    "Title": "57. Treffen mit einem Coding-Dojo",
+    "FromDate": "2014-02-12T19:00:00",
+    "ToDate": "2014-02-12T23:00:00",
+    "Teaser": "Zum Auftakt und zum ersten Treffen im Jahr 2014 möchten wir euch zu einem Coding-Dojo einladen",
+    "Description": "Bei einem Coding-Dojo werden wir gemeinsam eine Aufgabe mit dem Fokus auf eine bestimmt praktik lösen. Dabei kann es sich um Clean Code, Testgetriebene Entwicklung, Architektur oder um jede andere Praktik handeln. Dabei geht es hauptsächlich um die Vermittlung der Techniken und Praktiken.<br/><br/><a href=\"https://www.xing.com/profile/Fritz_Koschnick\">Fritz Koschnick</a> von der <a href=\"http://www.sybit.de/\">Sybit GmbH</a> aus Radolfzell wird den Coding-Dojo moderieren und durch den Abend führen.",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [
+		"C69B0A63-4531-4BA0-9BEA-3B42CEEAD681"
+	],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "254D44D1-FCE7-4B18-B4BD-203B201DFF43",
+    "Title": "58. Treffen mit skydrive API",
+    "FromDate": "2014-03-12T19:00:00",
+    "ToDate": "2014-03-12T22:00:00",
+    "Teaser": "Zu diesem Treffen möchten wir alle Webenentwikler einladen die sich für die Open Authentication interessieren.",
+    "Description": "Miro Grenda von der Akentas aus Stockach stellt speziell den Zugriff auf die Skydrive API und/oder die Facebook API vor. Es sind nicht nur .NET und ASP.NET ENtwickler eingeladen, sondern alle Webentwickler die sich für das Thema Open Authentication interessieren.",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
+    "AttandeeIds": []
+  },
+  {
+    "Id": "299D025A-FCD7-4C68-842F-003DC5A87608",
+    "Title": "59. Treffen mit Datenbanken-Architektur ",
+    "FromDate": "2014-04-09T19:00:00",
+    "ToDate": "2014-04-09T22:00:00",
+    "Teaser": "Tilo Schinke möchte beim 59. Treffen zum Thema Datenbanken-Architektur einladen",
+    "Description": "Wer sich für Datenbank Themen und speziell für Datenbank-Architekturen interessiert ist herzlich eingeladen sich an dieser Diskussion zu beteiligen.",
+    "LocationId": "316901e3-fe5b-44ce-a63b-523b0c4aacb3",
+    "SpeakerIds": [],
+    "AttandeeIds": []
+  }
+]

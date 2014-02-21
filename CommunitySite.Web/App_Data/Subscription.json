@@ -1,0 +1,56 @@
+[
+  {
+    "Id": "6a9ffd37-c1dd-4b92-8a1c-0353af5ff558",
+    "Name": "Jürgen Gutsch",
+    "Email": "juergen.gutsch@yooapps.com",
+    "EventId": "00000000-0000-0000-0000-000000000000",
+    "IsActive": false,
+    "DateCreated": "2013-08-20T22:58:58.7908859+02:00",
+    "DataActivated": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "14806708-d294-4fe8-bbd0-af2e604a3cbb",
+    "Name": "Jürgen Gutsch",
+    "Email": "juergen.gutsch@yooapps.com",
+    "EventId": "00000000-0000-0000-0000-000000000000",
+    "IsActive": false,
+    "DateCreated": "2013-08-20T23:11:37.5583925+02:00",
+    "DataActivated": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "fccd3479-1123-4572-8230-d9ae96273376",
+    "Name": null,
+    "Email": null,
+    "EventId": "00000000-0000-0000-0000-000000000000",
+    "IsActive": false,
+    "DateCreated": "2013-08-20T23:12:09.5408831+02:00",
+    "DataActivated": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "394c7e37-377c-488c-be30-62f91914cb1b",
+    "Name": null,
+    "Email": null,
+    "EventId": "00000000-0000-0000-0000-000000000000",
+    "IsActive": false,
+    "DateCreated": "2013-08-20T23:12:44.5219211+02:00",
+    "DataActivated": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "505b71a7-bb3b-41b1-92e0-2c7c375c81fd",
+    "Name": null,
+    "Email": null,
+    "EventId": "00000000-0000-0000-0000-000000000000",
+    "IsActive": false,
+    "DateCreated": "2013-08-20T23:13:01.611204+02:00",
+    "DataActivated": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "e7655d5d-ecd0-4a2a-927e-176aa8fe63d4",
+    "Name": null,
+    "Email": null,
+    "EventId": "00000000-0000-0000-0000-000000000000",
+    "IsActive": false,
+    "DateCreated": "2013-08-20T23:13:09.6083267+02:00",
+    "DataActivated": "0001-01-01T00:00:00"
+  }
+]
