@@ -1,0 +1,38 @@
+﻿@model CommunitySite.Web.Models.ReminderModel
+
+@{
+    ViewBag.Title = "View1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Reminder abonnieren</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        @if (Model.Success)
+        {
+            <div class="alert alert-success">
+                <p>Vielen Dank für die Registrierung. Sie erhalten in Kürze eine E-Mail mit einem Bestätigungslink.</p>
+                <p>Mit einem Klick auf diesen Link akivieren Sie die Terminerrinnerungen.</p>
+            </div>
+        }
+        else
+        {
+            @Html.ValidationSummary(String.Empty, new { @class = "alert alert-danger" })
+            using (Html.BeginForm("Index", "Reminder", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email, new { @class = "col-sm-2 control-label" })
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "E-Mail", type = "email" })
+                    </div>
+                </div>
+                <button class="btn btn-primary pull-right">Anmelden</button>
+            }
+        }
+    </div>
+</div>

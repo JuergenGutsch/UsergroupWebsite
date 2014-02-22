@@ -29,8 +29,9 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="/Calendar">Termine</a></li>
-                        <li><a href="/Static/Page/About">Über uns</a></li>
+                        <li>@Html.ActionLink("Termine", "Index", "Calendar")</li>
+                        <li>@Html.ActionLink("Reminder", "Index", "Reminder")</li>
+                        <li><a href="/Page/About">Über uns</a></li>
                     </ul>
                 </div>
             </div>

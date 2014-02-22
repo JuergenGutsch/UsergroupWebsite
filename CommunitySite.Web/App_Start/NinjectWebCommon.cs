@@ -85,7 +85,6 @@ namespace CommunitySite.Web.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            kernel.Bind<IValidator<SubscribeModel>>().To<SubscribeValidator>();
             kernel.Bind<IUnitOfWork>().To<UnitOfWork>().InTransientScope();
             kernel.Bind<IEmailService>().To<EmailService>().InTransientScope();
             kernel.Bind<ISmtpService>().To<SmtpService>().InTransientScope();

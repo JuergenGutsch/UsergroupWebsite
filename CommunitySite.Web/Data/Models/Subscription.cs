@@ -5,12 +5,11 @@ namespace CommunitySite.Web.Data.Models
 {
     public class Subscription : IEntity
     {
-        public Guid Id { get; set; }
-        public String Name { get; set; }
+        [Identifier]
         public String Email { get; set; }
-        public Guid EventId { get; set; }
-        public bool IsActive { get; set; }
+        public bool IsValid { get; set; }
+        public Guid ValidationKey { get; set; }
         public DateTime DateCreated { get; set; }
-        public DateTime DataActivated { get; set; }
+        public DateTime DataValidated { get; set; }
     }
 }

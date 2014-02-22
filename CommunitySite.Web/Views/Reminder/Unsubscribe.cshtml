@@ -1,0 +1,33 @@
+﻿@model CommunitySite.Web.Models.UnsubscribeModel
+
+@{
+    ViewBag.Title = "Unsubscribe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Reminder gelöscht</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        @if (!Model.Exists)
+        {
+            <div class="alert alert-danger">
+                <p>
+                    Es ist ein Fehler aufgetreten:<br />
+                    Der Validierungsschlüssel existiert nicht oder ist nicht mehr gültig.
+                </p>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-success">
+                <p>
+                    Die E-Mail <em>@Model.Email</em> wurde aus dem Reminder gelöscht.
+                </p>
+            </div>
+        }
+    </div>
+</div>
